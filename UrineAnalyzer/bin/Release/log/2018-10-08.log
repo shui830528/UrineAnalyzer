@@ -1,0 +1,49 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2018-10-08 10:07:27  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:08:14  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 10:09:05  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:12:08  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:12:31  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 10:13:56  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:14:29  】【  Connection Thread ID 8 Count : 1  】
+【  2018-10-08 10:19:49  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:21:41  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:22:31  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 10:23:26  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:25:05  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:52:32  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:53:13  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 10:55:56  】【  Connection Thread ID 8 Count : 1  】
+【  2018-10-08 10:57:41  】【  Connection Thread ID 8 Count : 1  】
+【  2018-10-08 14:08:30  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 14:10:03  】【  Connection Thread ID 9 Count : 1  】
+【  2018/10/8 14:10:20  】【  接收一包数据:
+$1#  】
+【  2018-10-08 14:15:57  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 14:16:03  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2018-10-08 14:16:54  】【  Connection Thread ID 9 Count : 1  】
+【  2018/10/8 14:17:00  】【  接收一包数据:
+$1#  】
+【  2018-10-08 15:05:38  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:15:27  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:15:34  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 15:16:17  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:16:26  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 15:17:07  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:17:14  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 15:18:33  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:18:38  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 15:18:55  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 15:19:00  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 15:20:47  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:20:53  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 15:23:41  】【  Connection Thread ID 9 Count : 1  】
+【  2018-10-08 15:23:47  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 16:38:18  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 16:38:33  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 16:38:53  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 16:38:57  】【  端口“COM6”不存在。SerialPort.Open Error  】
+【  2018-10-08 16:55:53  】【  Connection Thread ID 10 Count : 1  】
+【  2018-10-08 16:56:00  】【  端口“COM6”不存在。SerialPort.Open Error  】

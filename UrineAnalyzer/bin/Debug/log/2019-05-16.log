@@ -1,0 +1,47 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2019-05-16 9:10:12  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 9:10:38  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 14:31:37  】【  'E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\'不是一个有效的路径。 确定路径名称拼写是否正确，以及是否连接到文件存放的服务器。  】
+【  2019-05-16 14:31:37  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 14:31:37  】【  'E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\'不是一个有效的路径。 确定路径名称拼写是否正确，以及是否连接到文件存放的服务器。 : DB.Query执行错误 : select * from Tab_Authority  】
+【  2019-05-16 14:31:37  】【  'E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\'不是一个有效的路径。 确定路径名称拼写是否正确，以及是否连接到文件存放的服务器。 : DB.Query执行错误 : select Tab_User.*,Tab_Authority.AuthorityName from Tab_User left join Tab_Authority on Tab_User.AuthorityID = Tab_Authority.ID  】
+【  2019-05-16 14:38:32  】【  'E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\'不是一个有效的路径。 确定路径名称拼写是否正确，以及是否连接到文件存放的服务器。  】
+【  2019-05-16 14:38:32  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 14:38:32  】【  'E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\'不是一个有效的路径。 确定路径名称拼写是否正确，以及是否连接到文件存放的服务器。 : DB.Query执行错误 : select * from Tab_Authority  】
+【  2019-05-16 14:40:41  】【  没有可用的错误消息，结果代码: DB_SEC_E_AUTH_FAILED(0x80040E4D)。  】
+【  2019-05-16 14:40:41  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 14:40:41  】【  没有可用的错误消息，结果代码: DB_SEC_E_AUTH_FAILED(0x80040E4D)。 : DB.Query执行错误 : select * from Tab_Authority  】
+【  2019-05-16 14:41:05  】【  没有可用的错误消息，结果代码: DB_SEC_E_AUTH_FAILED(0x80040E4D)。  】
+【  2019-05-16 14:41:05  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 14:41:06  】【  没有可用的错误消息，结果代码: DB_SEC_E_AUTH_FAILED(0x80040E4D)。 : DB.Query执行错误 : select * from Tab_Authority  】
+【  2019-05-16 14:41:12  】【  没有可用的错误消息，结果代码: DB_SEC_E_AUTH_FAILED(0x80040E4D)。 : DB.Query执行错误 : select Tab_User.*,Tab_Authority.AuthorityName from Tab_User left join Tab_Authority on Tab_User.AuthorityID = Tab_Authority.ID  】
+【  2019-05-16 14:42:12  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 14:42:22  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 14:43:19  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 14:43:25  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 14:46:57  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 14:47:03  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 14:48:56  】【  Connection Thread ID 8 Count : 1  】
+【  2019-05-16 14:49:01  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 14:49:18  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 14:49:24  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 14:50:16  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 14:50:23  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:03:56  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 15:04:03  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:04:41  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 15:04:46  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:05:51  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 15:05:58  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:06:33  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 15:06:38  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:19:10  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 15:19:17  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:19:58  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 15:20:04  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 15:47:07  】【  Connection Thread ID 9 Count : 1  】
+【  2019-05-16 15:47:13  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2019-05-16 16:47:04  】【  Connection Thread ID 10 Count : 1  】
+【  2019-05-16 16:47:10  】【  端口“COM5”不存在。SerialPort.Open Error  】

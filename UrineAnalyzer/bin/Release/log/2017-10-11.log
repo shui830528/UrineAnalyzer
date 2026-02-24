@@ -1,0 +1,67 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2017-10-11 13:51:24  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 13:51:40  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:01:11  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:01:16  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : SELECT * FROM Tab_SampleInfo Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59# Order by SampleID  】
+【  2017-10-11 14:01:20  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : SELECT * FROM Tab_SampleInfo Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59# Order by SampleID  】
+【  2017-10-11 14:01:25  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select SendCheckOffice as ItemName,Count(SendCheckOffice) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By SendCheckOffice  】
+【  2017-10-11 14:01:29  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select SendCheckDoctor as ItemName,Count(SendCheckDoctor) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By SendCheckDoctor  】
+【  2017-10-11 14:01:34  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select CheckDoctor as ItemName,Count(CheckDoctor) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By CheckDoctor  】
+【  2017-10-11 14:01:38  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select SendCheckOffice as ItemName,Count(SendCheckOffice) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By SendCheckOffice  】
+【  2017-10-11 14:01:43  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select SendCheckDoctor as ItemName,Count(SendCheckDoctor) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By SendCheckDoctor  】
+【  2017-10-11 14:01:47  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select CheckDoctor as ItemName,Count(CheckDoctor) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By CheckDoctor  】
+【  2017-10-11 14:01:52  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select SendCheckOffice as ItemName,Count(SendCheckOffice) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By SendCheckOffice  】
+【  2017-10-11 14:01:56  】【  The table 'Tab_SampleInfo' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically. : DB.Query执行错误 : Select SendCheckDoctor as ItemName,Count(SendCheckDoctor) as Num  From Tab_SampleInfo  Where RegistDate >= #2017-10-11 00:00:00# and RegistDate <= #2017-10-11 23:59:59#  Group By SendCheckDoctor  】
+【  2017-10-11 14:01:59  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:12:57  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:12:58  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:22:20  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:22:21  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:26:26  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:26:27  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:30:48  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:30:49  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:57:40  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:57:41  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:58:10  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:58:11  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:58:50  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:58:50  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 14:59:43  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 14:59:44  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:00:10  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:00:12  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:00:42  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:00:43  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:07:49  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:07:50  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:08:30  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:08:31  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:30:49  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:30:50  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:53:56  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:53:57  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 15:55:58  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 15:55:59  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-11 16:10:41  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-11 16:10:42  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】

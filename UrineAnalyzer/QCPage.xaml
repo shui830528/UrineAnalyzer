@@ -1,0 +1,237 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UrineAnalyzer"
+      xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" x:Class="UrineAnalyzer.QCPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="QCPage" FontSize="16" Loaded="Page_Loaded">
+    <Page.Resources>
+        <Style x:Key="ToolButton" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="BorderBrush" Value="#FF79B7F5"/>
+                    <Setter Property="Background" Value="#FFCCE4FD"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Opacity" Value="0.6"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+    <Grid Background="White" Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="1" BorderBrush="LightGray">
+            <ToolBar>
+                <Border x:Name="btnOther" Width="370" Margin="2,2,2,2">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="质控类型" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                        <RadioButton x:Name="rbNeg" Content="阴性" VerticalAlignment="Center" Margin="15,0,0,0" Checked="rbNeg_Checked"/>
+                        <RadioButton x:Name="rbPos" Content="阳性" VerticalAlignment="Center" Margin="15,0,0,0" Checked="rbPos_Checked"/>
+                        <TextBlock Text="质控月份" VerticalAlignment="Center" Margin="15,0,5,0"/>
+                        <TextBox x:Name="tbDate" Text="2017-05" VerticalAlignment="Center" IsReadOnly="True" Width="80"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="btnPreYear" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnPreYear_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t18.png" Width="24" Height="24"/>
+                        <TextBlock Text="上一年" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="btnPreMonth" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnPreMonth_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t19.png" Width="24" Height="24"/>
+                        <TextBlock Text="上一月" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="btnNextMonth" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnNextMonth_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t20.png" Width="24" Height="24"/>
+                        <TextBlock Text="下一月" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="btnNextYear" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnNextYear_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t21.png" Width="24" Height="24"/>
+                        <TextBlock Text="下一年" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Image Source="Assets/shuxian.png" />
+                <Border Name="btnDelete" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnDelete_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t5.png" Width="24" Height="24"/>
+                        <TextBlock Text="删除" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="btnPreview" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnPreview_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t10.png" Width="24" Height="24"/>
+                        <TextBlock Text="预览" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="btnPrint" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnPrint_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t10.png" Width="24" Height="24"/>
+                        <TextBlock Text="打印" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Image Source="Assets/shuxian.png" />
+                <Border x:Name="btnSetting" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnSetting_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t24.png" Width="24" Height="24"/>
+                        <TextBlock Text="参数设置" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+
+
+            </ToolBar>
+        </Border>
+
+        <TabControl Name="QCTabControl" Grid.Row="1" SelectionChanged="QCTabControl_SelectionChanged">
+            <TabItem Header="结果列表">
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="114"/>
+                        <ColumnDefinition Width="186"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border Margin="2,2,2,2" Grid.ColumnSpan="2">
+                        <DataGrid x:Name="dgGroupItems" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" SelectionChanged="dgGroupItems_SelectionChanged">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="日期" Binding="{Binding QCDate, StringFormat=yyyy-MM-dd HH:mm:ss}" Width="auto"/>
+                                <DataGridTextColumn Header="操作员" Binding="{Binding Operation}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Border>
+                    <Border Grid.Column="2" Margin="2,2,2,2">
+                        <DataGrid x:Name="dgItems" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="异常" Binding="{Binding Abnormal}" Width="100"/>
+                                <DataGridTextColumn Header="简称" Binding="{Binding Name}" Width="*"/>
+                                <DataGridTextColumn Header="检测项目" Binding="{Binding Caption}" Width="2*"/>
+                                <DataGridTextColumn Header="结果" Binding="{Binding Result}" Width="2*"/>
+                                <DataGridTextColumn Header="单位" Binding="{Binding Unit}" Width="*"/>
+                                <DataGridTextColumn Header="参考范围" Binding="{Binding Range}" Width="2*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Border>
+                    <Border Grid.Column="2" Margin="2,2,2,2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="质控图表">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Name="dgChartItems" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray" SelectionMode="Single" SelectionChanged="dgChartItems_SelectionChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="简称" Binding="{Binding Name}" Width="100"/>
+                            <DataGridTextColumn Header="测试项目" Binding="{Binding Caption}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <DataGrid Grid.Row="1" Name="dgChartResult" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="异常" Binding="{Binding Abnormal}" Width="100"/>
+                                <DataGridTextColumn Header="日期" Binding="{Binding QCDate, StringFormat=yyyy-MM-dd HH:mm:ss}" Width="180"/>
+                                <DataGridTextColumn Header="结果" Binding="{Binding Result}" Width="200"/>
+                                <DataGridTextColumn Header="操作员" Binding="{Binding Operation}" Width="150"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <dxc:ChartControl Name="qcChart" HorizontalAlignment="Left" VerticalAlignment="Top" CustomDrawSeriesPoint="qcChart_CustomDrawSeriesPoint" BorderThickness="0">
+                            <dxc:ChartControl.Titles>
+                                <dxc:Title HorizontalAlignment="Center"/>
+                                <dxc:Title Dock="Bottom" HorizontalAlignment="Center"/>
+                            </dxc:ChartControl.Titles>
+                            <dxc:ChartControl.Legend>
+                                <dxc:Legend/>
+                            </dxc:ChartControl.Legend>
+                            <dxc:XYDiagram2D>
+                                <dxc:XYDiagram2D.AxisY>
+                                    <dxc:AxisY2D GridLinesVisible="False" Interlaced="False">
+                                        <dxc:AxisY2D.WholeRange>
+                                            <dxc:Range/>
+                                        </dxc:AxisY2D.WholeRange>
+                                        <dxc:AxisY2D.CustomLabels>
+                                            <dxc:CustomAxisLabel Content="3+" Value="5"/>
+                                            <dxc:CustomAxisLabel Content="2+" Value="4"/>
+                                            <dxc:CustomAxisLabel Content="1+" Value="3"/>
+                                            <dxc:CustomAxisLabel Content="+-" Value="2"/>
+                                            <dxc:CustomAxisLabel Content="Neg" Value="1"/>
+                                        </dxc:AxisY2D.CustomLabels>
+                                        <dxc:AxisY2D.ConstantLinesBehind>
+                                            <dxc:ConstantLine Value="5" Brush="Black">
+                                                <dxc:ConstantLine.LineStyle>
+                                                    <dxc:LineStyle DashCap="Flat">
+                                                        <dxc:LineStyle.DashStyle>
+                                                            <DashStyle Dashes="5"/>
+                                                        </dxc:LineStyle.DashStyle>
+                                                    </dxc:LineStyle>
+                                                </dxc:ConstantLine.LineStyle>
+                                            </dxc:ConstantLine>
+                                            <dxc:ConstantLine Value="4"/>
+                                            <dxc:ConstantLine Value="3" Brush="Black">
+                                                <dxc:ConstantLine.LineStyle>
+                                                    <dxc:LineStyle DashCap="Flat">
+                                                        <dxc:LineStyle.DashStyle>
+                                                            <DashStyle Dashes="5"/>
+                                                        </dxc:LineStyle.DashStyle>
+                                                    </dxc:LineStyle>
+                                                </dxc:ConstantLine.LineStyle>
+                                            </dxc:ConstantLine>
+                                            <dxc:ConstantLine Value="2"/>
+                                            <dxc:ConstantLine Value="1" Brush="Black">
+                                                <dxc:ConstantLine.LineStyle>
+                                                    <dxc:LineStyle DashCap="Flat">
+                                                        <dxc:LineStyle.DashStyle>
+                                                            <DashStyle Dashes="5"/>
+                                                        </dxc:LineStyle.DashStyle>
+                                                    </dxc:LineStyle>
+                                                </dxc:ConstantLine.LineStyle>
+                                            </dxc:ConstantLine>
+                                        </dxc:AxisY2D.ConstantLinesBehind>
+                                    </dxc:AxisY2D>
+                                </dxc:XYDiagram2D.AxisY>
+                                <dxc:XYDiagram2D.AxisX>
+                                    <dxc:AxisX2D GridLinesVisible="False">
+                                        <dxc:AxisX2D.Label>
+                                            <dxc:AxisLabel FontFamily="Normal" FontWeight="Bold" Foreground="Black" />
+                                        </dxc:AxisX2D.Label>
+                                        <dxc:AxisX2D.NumericScaleOptions>
+                                            <dxc:ManualNumericScaleOptions   MeasureUnit="0.0001" GridSpacing="1"/>
+                                        </dxc:AxisX2D.NumericScaleOptions>
+                                        <dxc:AxisX2D.WholeRange>
+                                            <dxc:Range MinValue="1" MaxValue="31" SideMarginsValue="0"/>
+                                        </dxc:AxisX2D.WholeRange>
+                                    </dxc:AxisX2D>
+                                </dxc:XYDiagram2D.AxisX>
+                                <dxc:LineSeries2D MarkerVisible="True" CrosshairEnabled="False" ShowInLegend="False" ToolTipEnabled="False" LabelsVisibility="False">
+                                    <dxc:SeriesPoint Argument="1" Value="2"/>
+                                    <dxc:SeriesPoint Argument="2" Value="5"/>
+                                    <dxc:SeriesPoint Argument="3" Value="3"/>
+                                    <dxc:SeriesPoint Argument="4" Value="4"/>
+                                </dxc:LineSeries2D>
+                            </dxc:XYDiagram2D>
+                        </dxc:ChartControl>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

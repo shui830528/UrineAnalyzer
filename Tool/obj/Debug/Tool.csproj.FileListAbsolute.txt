@@ -1,0 +1,16 @@
+E:\生化上位机软件\尿仪\UrineAnalyzer\Tool\bin\Debug\Tool.dll
+E:\生化上位机软件\尿仪\UrineAnalyzer\Tool\bin\Debug\Tool.pdb
+E:\生化上位机软件\尿仪\UrineAnalyzer\Tool\obj\Debug\Tool.dll
+E:\生化上位机软件\尿仪\UrineAnalyzer\Tool\obj\Debug\Tool.pdb
+E:\生化上位机软件\尿仪\UrineAnalyzer\Tool\obj\Debug\Tool.csprojResolveAssemblyReference.cache
+E:\老马\生化上位机软件\尿仪\UrineAnalyzer\Tool\bin\Debug\Tool.dll
+E:\老马\生化上位机软件\尿仪\UrineAnalyzer\Tool\bin\Debug\Tool.pdb
+E:\老马\生化上位机软件\尿仪\UrineAnalyzer\Tool\obj\Debug\Tool.csproj.CoreCompileInputs.cache
+E:\老马\生化上位机软件\尿仪\UrineAnalyzer\Tool\obj\Debug\Tool.dll
+E:\老马\生化上位机软件\尿仪\UrineAnalyzer\Tool\obj\Debug\Tool.pdb
+U:\工作文档\尿仪软件\UrineAnalyzer\Tool\bin\Debug\Tool.dll
+U:\工作文档\尿仪软件\UrineAnalyzer\Tool\bin\Debug\Tool.pdb
+U:\工作文档\尿仪软件\UrineAnalyzer\Tool\obj\Debug\Tool.csproj.CoreCompileInputs.cache
+U:\工作文档\尿仪软件\UrineAnalyzer\Tool\obj\Debug\Tool.dll
+U:\工作文档\尿仪软件\UrineAnalyzer\Tool\obj\Debug\Tool.pdb
+U:\工作文档\尿仪软件\UrineAnalyzer\Tool\obj\Debug\Tool.csproj.AssemblyReference.cache

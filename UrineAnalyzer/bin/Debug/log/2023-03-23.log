@@ -1,0 +1,153 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2023-03-23 10:05:54  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 10:06:18  】【  接收一包数据:
+,158,3,1,1  】
+【  2023/03/23 10:06:42  】【  接收一包数据:
+,158,3,1,1  】
+【  2023/03/23 10:07:28  】【  接收一包数据:
+,158,3,1,1  】
+【  2023-03-23 10:09:41  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 10:12:20  】【  接收一包数据:
+,158,3,1,1  】
+【  2023/03/23 10:12:42  】【  接收一包数据:
+,23,3,11,2023-03-23 09:46:21,7001,0001,01, , , ; ; ; ;   】
+【  2023/03/23 10:12:42  】【  给定关键字不在字典中。项目解析出错  】
+【  2023-03-23 10:15:00  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 10:15:15  】【  接收一包数据:
+,23,3,11,2023-03-23 09:46:21,7001,0001,01, , , ; ; ; ;   】
+【  2023/03/23 10:15:26  】【  接收一包数据:
+,23,3,11,2023-03-23 09:46:21,7001,0001,01, , , ; ; ; ;   】
+【  2023-03-23 10:38:19  】【  Connection Thread ID 1 Count : 1  】
+【  2023-03-23 14:51:39  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 14:52:21  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 14:52:21  】【  Connection Thread ID 16 Count : 2  】
+【  2023-03-23 15:12:46  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:13:16  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:13:16  】【  Connection Thread ID 17 Count : 2  】
+【  2023/03/23 15:13:45  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:14:14  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:14:53  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:15:29  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:15:38  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023-03-23 15:16:36  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:16:57  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:16:58  】【  Connection Thread ID 17 Count : 2  】
+【  2023/03/23 15:17:01  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023-03-23 15:18:32  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:18:49  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:18:49  】【  Connection Thread ID 17 Count : 2  】
+【  2023-03-23 15:20:30  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:20:46  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:20:46  】【  Connection Thread ID 17 Count : 2  】
+【  2023-03-23 15:23:07  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:23:25  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:23:25  】【  Connection Thread ID 17 Count : 2  】
+【  2023-03-23 15:23:48  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:24:08  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:24:08  】【  Connection Thread ID 17 Count : 2  】
+【  2023-03-23 15:25:12  】【  Connection Thread ID 1 Count : 1  】
+【  2023-03-23 15:26:16  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 15:26:39  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 15:26:39  】【  Connection Thread ID 17 Count : 2  】
+【  2023/03/23 16:27:21  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 16:28:45  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023-03-23 16:30:34  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 16:30:58  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 16:30:58  】【  Connection Thread ID 17 Count : 2  】
+【  2023-03-23 18:52:27  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 18:53:00  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 18:53:00  】【  Connection Thread ID 16 Count : 2  】
+【  2023-03-23 18:55:37  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 18:56:06  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 18:56:06  】【  Connection Thread ID 17 Count : 2  】
+【  2023/03/23 18:57:55  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 18:58:17  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023-03-23 18:59:00  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 18:59:17  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 18:59:17  】【  Connection Thread ID 18 Count : 2  】
+【  2023/03/23 18:59:50  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:00:07  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:00:21  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023-03-23 19:03:26  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 19:03:47  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:03:47  】【  Connection Thread ID 18 Count : 2  】
+【  2023/03/23 19:03:47  】【  SQL 语句的结束位置缺少分号 (;)。 : DB.Execute执行错误 : Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,0,0,'','UBG','Normal 0.2','mg/dL','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,1,0,'','BIL','Neg','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,2,0,'','KET','Neg','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,3,0,'','CRE','10','mg/dL','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,4,0,'','BLD','Neg','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,5,0,'','PRO','Neg','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,6,1,'','MALB','10','mg/L','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,7,0,'','NIT','Neg','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,8,0,'','LEU','Neg','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,9,3,'*','GLU','2+ 250','mg/dL','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,10,5,'','SG','1.025','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,11,6,'','PH','>=8.5','','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,12,4,'*','VC','100','mg/dL','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,14,0,'','CA','4.0','mg/dL','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,13,0,'','A:C','<30','mg/g','','admin')	Insert Into Tab_QCResult(QCDate,IsNeg,ItemID,ItemIndex,ItemAbnormal,ItemName,ItemResult,ItemUnit,ItemRange,Operator) values(#2023-03-23 11:29:34#,false,15,0,'','Rt','Normal','','','admin')	  】
+【  2023-03-23 19:04:59  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 19:05:15  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:05:15  】【  Connection Thread ID 18 Count : 2  】
+【  2023-03-23 19:12:29  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 19:12:47  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:12:47  】【  Connection Thread ID 18 Count : 2  】
+【  2023-03-23 19:13:19  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 19:13:36  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:13:36  】【  Connection Thread ID 18 Count : 2  】
+【  2023/03/23 19:13:53  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023-03-23 19:14:28  】【  Connection Thread ID 1 Count : 1  】
+【  2023/03/23 19:14:47  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:14:47  】【  Connection Thread ID 16 Count : 2  】
+【  2023/03/23 19:14:55  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:15:04  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:15:27  】【  记录被删除。 : DB.Execute执行错误 : Delete From Tab_QCResult Where QCDate = #2023-03-23 11:29:34# and IsNeg = false  】
+【  2023/03/23 19:15:38  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:15:58  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:16:34  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:17:18  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:17:30  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:17:37  】【  记录被删除。 : DB.Execute执行错误 : Delete From Tab_QCResult Where QCDate = #2023-03-23 11:29:34# and IsNeg = false  】
+【  2023/03/23 19:17:48  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:18:00  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:18:00  】【  记录被删除。 : DB.Execute执行错误 : Delete From Tab_QCResult Where QCDate = #2023-03-23 11:29:34# and IsNeg = false  】
+【  2023/03/23 19:18:49  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:19:55  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:20:18  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:22:24  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:27:34  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】
+【  2023/03/23 19:27:42  】【  接收一包数据:
+,23,3,11,2023-03-23 11:29:34,7005,0004,01,,, ;UBG;Normal 0.2 ;mg/dL;0| ;BIL;Neg        ;     ;0| ;KET;Neg        ;     ;0| ;CRE;10         ;mg/dL;0| ;BLD;Neg       ;      ;0| ;PRO;Neg        ;     ;0| ;MALB;10         ;mg/L;1| ;NIT;Neg         ;    ;0| ;LEU;Neg       ;      ;0|*;GLU;2+ 250     ;mg/dL;3| ;SG;1.025           ; ;5| ;PH;>=8.5           ; ;6|*;VC;100         ;mg/dL;4| ;CA;4.0         ;mg/dL;0| ;A:C;<30         ;mg/g;0| ;Rt;Normal         ; ; 0  】

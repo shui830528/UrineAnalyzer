@@ -1,0 +1,51 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2020-01-03 08:59:16  】【  Connection Thread ID 9 Count : 1  】
+【  2020-01-03 08:59:41  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2020/1/3 08:59:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:00:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:00:11  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:00:21  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:00:31  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:00:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:00:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:01:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:01:11  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:01:21  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:01:31  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:01:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:01:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:02:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:02:11  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:02:21  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:02:31  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:02:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:02:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:03:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:03:11  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:03:21  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:03:31  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:03:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:03:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:04:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:04:11  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:04:21  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:04:31  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:04:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:04:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:05:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:05:11  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:05:21  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:05:31  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:05:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:05:51  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020/1/3 09:06:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-01-03 00:00:00# and RegistDate <= #2020-01-03 23:59:59#) Order by SampleID  】
+【  2020-01-03 10:10:10  】【  Connection Thread ID 10 Count : 1  】
+【  2020-01-03 10:10:20  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2020-01-03 13:24:09  】【  Connection Thread ID 10 Count : 1  】
+【  2020-01-03 13:24:16  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2020-01-03 13:26:50  】【  Connection Thread ID 9 Count : 1  】
+【  2020-01-03 13:26:58  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2020-01-03 13:31:55  】【  Connection Thread ID 8 Count : 1  】
+【  2020-01-03 13:32:04  】【  端口“COM5”不存在。SerialPort.Open Error  】

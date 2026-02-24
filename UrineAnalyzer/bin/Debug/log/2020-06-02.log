@@ -1,0 +1,13 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2020-06-02 09:20:52  】【  Connection Thread ID 1 Count : 1  】
+【  2020-06-02 09:21:07  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2020/6/2 09:23:40  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-06-02 00:00:00# and RegistDate <= #2020-06-02 23:59:59#) Order by SampleID  】
+【  2020/6/2 09:23:50  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-06-02 00:00:00# and RegistDate <= #2020-06-02 23:59:59#) Order by SampleID  】
+【  2020/6/2 09:26:41  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-06-02 00:00:00# and RegistDate <= #2020-06-02 23:59:59#) Order by SampleID  】
+【  2020-06-02 09:39:42  】【  Connection Thread ID 1 Count : 1  】
+【  2020-06-02 09:39:51  】【  端口“COM5”不存在。SerialPort.Open Error  】
+【  2020/6/2 09:40:01  】【  该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。 SampleInfoModel.Query Error SELECT * FROM Tab_SampleInfo Where (RegistDate >= #2020-06-02 00:00:00# and RegistDate <= #2020-06-02 23:59:59#) Order by SampleID  】
+【  2020-06-02 16:06:40  】【  Connection Thread ID 8 Count : 1  】
+【  2020-06-02 16:06:53  】【  端口“COM5”不存在。SerialPort.Open Error  】

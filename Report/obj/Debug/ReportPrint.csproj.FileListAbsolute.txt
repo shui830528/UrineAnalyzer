@@ -1,0 +1,15 @@
+E:\报表设计\Reports\Report\bin\Debug\Report.dll
+E:\报表设计\Reports\Report\bin\Debug\Report.pdb
+E:\报表设计\Reports\Report\bin\Debug\FastReport.dll
+E:\报表设计\Reports\Report\bin\Debug\FastReport.Bars.dll
+E:\报表设计\Reports\Report\bin\Debug\FastReport.Editor.dll
+E:\报表设计\Reports\Report\obj\Debug\Report.dll
+E:\报表设计\Reports\Report\obj\Debug\Report.pdb
+E:\报表设计\Reports\Report\obj\Debug\ReportPrint.csprojResolveAssemblyReference.cache
+E:\生化上位机软件\尿仪\UrineAnalyzer\Report\bin\Debug\Report.dll
+E:\生化上位机软件\尿仪\UrineAnalyzer\Report\bin\Debug\Report.pdb
+E:\生化上位机软件\尿仪\UrineAnalyzer\Report\obj\Debug\Report.dll
+E:\生化上位机软件\尿仪\UrineAnalyzer\Report\obj\Debug\Report.pdb
+E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\Report.dll
+E:\生化上位机软件\尿仪\UrineAnalyzer\UrineAnalyzer\bin\Debug\Report.pdb
+E:\生化上位机软件\尿仪\UrineAnalyzer\Report\obj\Debug\ReportPrint.csprojResolveAssemblyReference.cache

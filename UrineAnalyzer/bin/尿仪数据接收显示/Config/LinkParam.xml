@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DB DBName="Database.mdb" />
+  <PortConfig PortName="COM5" BaudRate="115200" />
+  <InstrumentConfig InstrumentType="0" />
+</ROOT>

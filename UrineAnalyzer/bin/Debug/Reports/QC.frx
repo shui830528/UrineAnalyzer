@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="11/01/2017 09:08:59" ReportInfo.Modified="08/27/2019 18:39:33" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <MsAccessDataConnection Name="Connection" ConnectionString="rijcmlqoDWEBRlB24atBGpA/h9/NbwdWKfjN0xexwR499WDO0yiW1l4mMKKOPypW0ck3vYhFOHNPrkVt9RJiuy3hPc5orqYQPmU0ZkABYv9GDfC/VY=" ConnectionStringExpression="[conn]">
+      <TableDataSource Name="Query1" DataType="System.Int32" PropName="Table" Enabled="true" SelectCommand="select * from Tab_QCResult where ItemName = 'UBG' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult where ItemName = 'UBG' and Year(QCDate) = 2017 and Month(QCDate) = 7 group by ItemID,Day(QCDate))">
+        <Column Name="QCDate" DataType="System.DateTime"/>
+        <Column Name="IsNeg" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="ItemID" DataType="System.Int32"/>
+        <Column Name="ItemIndex" DataType="System.Int32"/>
+        <Column Name="ItemAbnormal" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="ItemResult" DataType="System.String"/>
+        <Column Name="ItemUnit" DataType="System.String"/>
+        <Column Name="ItemRange" DataType="System.String"/>
+        <Column Name="Operator" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Query2" DataType="System.Int32" PropName="Table1" Enabled="true" SelectCommand="select * from Tab_QCResult where ItemName = '' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID)">
+        <Column Name="QCDate" DataType="System.DateTime"/>
+        <Column Name="IsNeg" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="ItemID" DataType="System.Int32"/>
+        <Column Name="ItemIndex" DataType="System.Int32"/>
+        <Column Name="ItemAbnormal" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="ItemResult" DataType="System.String"/>
+        <Column Name="ItemUnit" DataType="System.String"/>
+        <Column Name="ItemRange" DataType="System.String"/>
+        <Column Name="Operator" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Query3" DataType="System.Int32" PropName="Table2" Enabled="true" SelectCommand="select * from Tab_QCResult where ItemName = '' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID)">
+        <Column Name="QCDate" DataType="System.DateTime"/>
+        <Column Name="IsNeg" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="ItemID" DataType="System.Int32"/>
+        <Column Name="ItemIndex" DataType="System.Int32"/>
+        <Column Name="ItemAbnormal" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="ItemResult" DataType="System.String"/>
+        <Column Name="ItemUnit" DataType="System.String"/>
+        <Column Name="ItemRange" DataType="System.String"/>
+        <Column Name="Operator" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Query4" DataType="System.Int32" PropName="Table3" Enabled="true" SelectCommand="select * from Tab_QCResult where ItemName = '' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID)">
+        <Column Name="QCDate" DataType="System.DateTime"/>
+        <Column Name="IsNeg" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="ItemID" DataType="System.Int32"/>
+        <Column Name="ItemIndex" DataType="System.Int32"/>
+        <Column Name="ItemAbnormal" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="ItemResult" DataType="System.String"/>
+        <Column Name="ItemUnit" DataType="System.String"/>
+        <Column Name="ItemRange" DataType="System.String"/>
+        <Column Name="Operator" DataType="System.String"/>
+      </TableDataSource>
+    </MsAccessDataConnection>
+    <Parameter Name="QCTitle" DataType="System.String"/>
+    <Parameter Name="QCDate" DataType="System.String"/>
+    <Parameter Name="QCItem" DataType="System.String"/>
+    <Parameter Name="QCType" DataType="System.String"/>
+    <Parameter Name="QCRange" DataType="System.String"/>
+    <Parameter Name="conn" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="37.8">
+      <TextObject Name="Text1" Left="311.85" Top="9.45" Width="387.45" Height="18.9" Text="[QCTitle]" Font="黑体, 16pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.97" Width="1047.06" Height="37.8">
+      <TextObject Name="Text2" Left="9.45" Top="18.9" Width="75.6" Height="18.9" Text="质控日期：" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="330.75" Top="18.9" Width="47.25" Height="18.9" Text="项目：" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="548.1" Top="18.9" Width="75.6" Height="18.9" Text="质控类型：" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Left="774.9" Top="18.9" Width="85.05" Height="18.9" Text="参考值范围：" Font="宋体, 9pt"/>
+      <TextObject Name="Text6" Left="85.05" Top="18.9" Width="236.25" Height="18.9" Text="[QCDate]" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="378" Top="18.9" Width="94.5" Height="18.9" Text="[QCItem]" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="623.7" Top="18.9" Width="94.5" Height="18.9" Text="[QCType]" Font="宋体, 9pt"/>
+      <TextObject Name="Text9" Left="859.95" Top="18.9" Width="160.65" Height="18.9" Text="[QCRange]" Font="宋体, 9pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="83.93" Width="1047.06" Height="614.25">
+      <PictureObject Name="Picture1" Left="9.45" Width="1020.6" Height="311.85"/>
+      <LineObject Name="Line2" Left="9.45" Top="340.2" Width="1030.05"/>
+      <TextObject Name="Text14" Left="9.45" Top="321.3" Width="132.3" Height="18.9" Text="附：当前图表数据" Font="宋体, 9pt, style=Bold"/>
+      <LineObject Name="Line3" Left="519.75" Top="340.2" Height="268.05"/>
+      <LineObject Name="Line4" Left="255.15" Top="340.2" Height="267.6"/>
+      <LineObject Name="Line5" Left="774.9" Top="340.2" Height="268.05"/>
+      <SubreportObject Name="Subreport1" Left="9.45" Top="340.2" Width="94.5" Height="18.9" ReportPage="Page2" PrintOnParent="true"/>
+      <SubreportObject Name="Subreport2" Left="255.15" Top="340.2" Width="94.5" Height="18.9" ReportPage="Page3" PrintOnParent="true"/>
+      <SubreportObject Name="Subreport3" Left="519.75" Top="340.2" Width="94.5" Height="18.9" ReportPage="Page4" PrintOnParent="true"/>
+      <SubreportObject Name="Subreport4" Left="774.9" Top="340.2" Width="94.5" Height="18.9" ReportPage="Page5" PrintOnParent="true"/>
+      <LineObject Name="Line6" Left="9.45" Width="1030.05"/>
+      <LineObject Name="Line7" Left="9.45" Top="2.45" Width="1030.05"/>
+      <LineObject Name="Line1" Left="9.45" Top="608.35" Width="1030.05"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="702.35" Width="1047.06" Height="28.35">
+      <TextObject Name="Text10" Left="9.45" Width="66.15" Height="18.9" Text="打印人：" Font="宋体, 9pt"/>
+      <TextObject Name="Text11" Left="321.3" Width="66.15" Height="18.9" Text="审核人：" Font="宋体, 9pt"/>
+      <TextObject Name="Text12" Left="756" Width="75.6" Height="18.9" Text="打印时间：" Font="宋体, 9pt"/>
+      <TextObject Name="Text13" Left="831.6" Width="198.45" Height="18.9" Text="[Date]" Font="宋体, 9pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page2">
+    <DataBand Name="Data2" Width="718.2" Height="18.9" DataSource="Query1">
+      <TextObject Name="Text15" Width="94.5" Height="18.9" Text="[Query1.QCDate]" Format="Date" Format.Format="d" Font="宋体, 9pt"/>
+      <TextObject Name="Text16" Left="113.4" Width="94.5" Height="18.9" Text="[Query1.ItemResult]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+  <ReportPage Name="Page3">
+    <DataBand Name="Data3" Width="718.2" Height="18.9" DataSource="Query2">
+      <TextObject Name="Text17" Width="94.5" Height="18.9" Text="[Query2.QCDate]" Format="Date" Format.Format="d" Font="宋体, 9pt"/>
+      <TextObject Name="Text18" Left="113.4" Width="94.5" Height="18.9" Text="[Query2.ItemResult]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+  <ReportPage Name="Page4">
+    <DataBand Name="Data4" Width="718.2" Height="18.9" DataSource="Query3">
+      <TextObject Name="Text19" Width="94.5" Height="18.9" Text="[Query3.QCDate]" Format="Date" Format.Format="d" Font="宋体, 9pt"/>
+      <TextObject Name="Text20" Left="113.4" Width="94.5" Height="18.9" Text="[Query3.ItemResult]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+  <ReportPage Name="Page5">
+    <DataBand Name="Data5" Width="718.2" Height="18.9" DataSource="Query4">
+      <TextObject Name="Text21" Width="94.5" Height="18.9" Text="[Query4.QCDate]" Format="Date" Format.Format="d" Font="宋体, 9pt"/>
+      <TextObject Name="Text22" Left="113.4" Width="94.5" Height="18.9" Text="[Query4.ItemResult]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

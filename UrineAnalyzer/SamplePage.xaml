@@ -1,0 +1,332 @@
+﻿<Page x:Class="UrineAnalyzer.SamplePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UrineAnalyzer"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1400"
+      Title="SamplePage" FontSize="16" Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+    <Page.Resources>
+        <Style x:Key="ToolButton" TargetType="Border">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="BorderBrush" Value="#FF79B7F5"/>
+                    <Setter Property="Background" Value="#FFCCE4FD"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Opacity" Value="0.6"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+    <Grid Background="White" Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="1" BorderBrush="LightGray">
+            <ToolBar>
+                <Border Name="btnUp" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnUp_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t1.png" Width="24" Height="24"/>
+                        <TextBlock Text="上一条" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnDown" Width="80"  Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnDown_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t2.png" Width="24" Height="24"/>
+                        <TextBlock Text="下一条" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Image Source="Assets/shuxian.png" />
+                <Border Name="btnAdd" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnAdd_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t3.png" Width="24" Height="24"/>
+                        <TextBlock Text="添加" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnModify" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnModify_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t4.png" Width="24" Height="24"/>
+                        <TextBlock Text="修改" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnDelete" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnDelete_MouseLeftButtonUp" >
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t5.png" Width="24" Height="24"/>
+                        <TextBlock Text="删除" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Name="btnBatchDelete" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnBatchDelete_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t5.png" Width="24" Height="24"/>
+                        <TextBlock Text="批量删除" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnSave" Focusable="True" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnSave_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t7.png" Width="24" Height="24"/>
+                        <TextBlock Text="保存" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnSaveNew" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnSaveNew_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t6.png" Width="24" Height="24"/>
+                        <TextBlock Text="保存新增" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnCancelSave" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnCancelSave_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t8.png" Width="24" Height="24"/>
+                        <TextBlock Text="取消" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Image Source="Assets/shuxian.png" />
+
+                <Border Name="btnAuditor" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnAuditor_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t9.png" Width="24" Height="24"/>
+                        <TextBlock Text="审核" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnUnAuditor" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnUnAuditor_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t9.png" Width="24" Height="24"/>
+                        <TextBlock Text="取消审核" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnPreview" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnPreview_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t10.png" Width="24" Height="24"/>
+                        <TextBlock Text="预览" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnPrint" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnPrint_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t10.png" Width="24" Height="24"/>
+                        <TextBlock Text="打印" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnBatchPrint" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonUp="btnBatchPrint_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t10.png" Width="24" Height="24"/>
+                        <TextBlock Text="批量打印" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnTodayQuery" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonDown="btnTodayQuery_MouseLeftButtonDown">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t11.png" Width="24" Height="24"/>
+                        <TextBlock Text="今日测试" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnQuery" Width="80" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonDown="btnQuery_MouseLeftButtonDown">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t11.png" Width="24" Height="24"/>
+                        <TextBlock Text="查询" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Name="btnQueryImage" Width="80" Visibility="Hidden" Style="{StaticResource ToolButton}" Margin="2,2,2,2" MouseLeftButtonDown="btnQueryImage_MouseLeftButtonDown">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/t11.png" Width="24" Height="24"/>
+                        <TextBlock Text="查看试纸条" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </ToolBar>
+        </Border>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="患者信息" Margin="2,2,2,2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+
+                    </Grid.ColumnDefinitions>
+                    
+                    <TextBlock Grid.Row="0" Text="样本编号" VerticalAlignment="Center" Margin="2,0,10,0"/>
+                    <TextBlock Grid.Row="1" Text="检验日期" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="2" Text="条码ID号" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="3" Text="患者姓名" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="4" Text="患者年龄" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="5" Text="患者性别" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="6" Text="病历号" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="7" Text="床号" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="8" Text="患者类别" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="9" Text="送检科室" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="10" Text="样本类型" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="11" Text="送检日期" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="12" Text="送检医生" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="13" Text="检验人" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="14" Text="审核人" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="15" Text="临床诊断" VerticalAlignment="Center" Margin="2,0,5,0"/>
+                    <TextBlock Grid.Row="16" Text="备注信息" VerticalAlignment="Top" Margin="2,5,5,0"/>
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBox Name="tbSampleID" Text="{Binding Path=SampleID,Mode=TwoWay}" Width="120" VerticalAlignment="Center" MaxLength="8"/>
+                        <CheckBox Name="cbEmergency" IsChecked="{Binding Path=IsEmergency}" Content="急诊" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <DatePicker Name="dpCheckDate" SelectedDate="{Binding Path=CheckDate,Mode=TwoWay}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"/>
+                    <TextBox Name="tbBarCode" Text="{Binding Path=BarCode,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" MaxLength="20"/>
+                    <TextBox Name="tbName" Text="{Binding Path=Name,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" MaxLength="10"/>
+                    <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal">
+                        <TextBox Name="tbAge" Text="{Binding Path=Age,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="50" VerticalAlignment="Center"/>
+                        <ComboBox Name="cbAgeUnit" Text="{Binding Path=AgeUnit}" Width="120" Margin="2,0,0,0" VerticalAlignment="Center" IsEditable="True"/>
+                    </StackPanel>
+                    <ComboBox Name="cbSex" Text="{Binding Path=Sex}" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <TextBox Name="tbCaseNo" Text="{Binding Path=CaseNo,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" MaxLength="10"/>
+                    <TextBox Name="tbBedNo" Text="{Binding Path=BedNo,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" MaxLength="4"/>
+                    <ComboBox Name="cbPatientType" Text="{Binding Path=PatientType}" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <ComboBox Name="cbSendCheckOffice" Text="{Binding Path=SendCheckOffice}" Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <ComboBox Name="cbSampleType" Text="{Binding Path=SampleType}" Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <DatePicker Name="dpSendCheckDate" SelectedDate="{Binding Path=SendCheckDate}" Grid.Row="11" Grid.Column="1" VerticalAlignment="Center"/>
+                    <ComboBox Name="cbSendCheckDoctor" Text="{Binding Path=SendCheckDoctor}" Grid.Row="12" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <ComboBox Name="tbCheckDoctor" Text="{Binding Path=CheckDoctor,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="13" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <ComboBox Name="tbAuditor" Text="{Binding Path=Auditor,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="14" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <ComboBox Name="cbClinical" Text="{Binding Path=Clinical}" Grid.Row="15" Grid.Column="1" VerticalAlignment="Center" IsEditable="True"/>
+                    <TextBox Name="tbRemakes" Text="{Binding Path=Remarks,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="16" Grid.Column="1" VerticalAlignment="Top" Height="50" Margin="0,5,0,0"/>
+                    <CheckBox x:Name="cbTest" IsChecked="{Binding Path=IsTest}" Content="检验" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="0,64,0,-12" Grid.Row="16" VerticalAlignment="Top" Width="115"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="样本信息">
+                <Border>
+                    <DataGrid Name="DGSampleInfo" AutoGenerateColumns="False" CanUserAddRows="False" FrozenColumnCount="1" BorderBrush="LightGray" VerticalGridLinesBrush="LightGray" HorizontalGridLinesBrush="LightGray" SelectionChanged="DGSampleInfo_SelectionChanged" IsReadOnly="True" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="样本号" Binding="{Binding SampleID}"/>
+                            <DataGridTextColumn Header="条码ID号" Binding="{Binding BarCode}"/>
+                            <DataGridTextColumn Header="检验日期" Binding="{Binding CheckDate,StringFormat='yyyy-MM-dd HH:mm:ss'}"/>
+                            <DataGridTextColumn Header="登记日期" Binding="{Binding RegistDate,StringFormat='yyyy-MM-dd HH:mm:ss'}"/>
+                            <DataGridTextColumn Header="患者姓名" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="患者年龄">
+                                <DataGridTextColumn.Binding>
+                                    <MultiBinding StringFormat="{}{0}{1}">
+                                        <Binding Path="Age"></Binding>
+                                        <Binding Path="AgeUnit"></Binding>
+                                    </MultiBinding>
+                                </DataGridTextColumn.Binding>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="患者性别" Binding="{Binding Sex}"/>
+                            <DataGridTemplateColumn Header="急诊">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsEmergency,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="病历号" Binding="{Binding CaseNo}"/>
+                            <DataGridTextColumn Header="床号" Binding="{Binding BedNo}"/>
+                            <DataGridTextColumn Header="患者类别" Binding="{Binding PatientType}"/>
+                            <DataGridTextColumn Header="送检医生" Binding="{Binding SendCheckDoctor}"/>
+                            <DataGridTextColumn Header="送检科室" Binding="{Binding SendCheckOffice}"/>
+                            <DataGridTextColumn Header="送检日期" Binding="{Binding SendCheckDate,StringFormat='yyyy-MM-dd HH:mm:ss'}"/>
+                            <DataGridTextColumn Header="样本类型" Binding="{Binding SampleType}"/>
+                            <DataGridTextColumn Header="检验人" Binding="{Binding CheckDoctor}"/>
+                            <DataGridTextColumn Header="审核人" Binding="{Binding Auditor}"/>
+                            <DataGridTextColumn Header="临床诊断" Binding="{Binding Clinical}"/>
+                            <DataGridTextColumn Header="备注信息" Binding="{Binding Remarks}"/>
+                            <DataGridTemplateColumn Header="审核">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsAuditor,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="打印">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsPrint,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Border>
+            </GroupBox>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <GroupBox Header="分析项目">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <Border>
+                            <DataGrid Name="dgAnalyzerResult" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" BorderBrush="LightGray" VerticalGridLinesBrush="LightGray" HorizontalGridLinesBrush="LightGray" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="异常" Binding="{Binding Abnormal}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="简称" Binding="{Binding Name}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="检测项目" Binding="{Binding Caption}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="结果" Binding="{Binding Result}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="单位" Binding="{Binding Unit}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="参考范围" Binding="{Binding Range}" IsReadOnly="True"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Name="btnAnalyzerResultAdd" Content="添加" Style="{StaticResource DialogButton}" Width="100" Height="30" Margin="0,0,30,0" Click="btnAnalyzerResultAdd_Click"/>
+                            <Button Name="btnAnalyzerResultDelete" Content="删除" Style="{StaticResource DialogButton}" Width="100" Height="30" Margin="0,0,20,0" Click="btnAnalyzerResultDelete_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Grid.Row="1" Header="手工项目">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <Border>
+                            <DataGrid Name="dgManualResult" AutoGenerateColumns="False" BorderBrush="LightGray" VerticalGridLinesBrush="LightGray" HorizontalGridLinesBrush="LightGray" CanUserAddRows="False" CanUserDeleteRows="False" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="异常" Binding="{Binding Abnormal}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="简称" Binding="{Binding Name}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="检测项目" Binding="{Binding Caption}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="结果" Binding="{Binding Result}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="单位" Binding="{Binding Unit}" IsReadOnly="True"/>
+                                    <DataGridTextColumn Header="参考范围" Binding="{Binding Range}" IsReadOnly="True"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Name="btnManualResultAdd" Content="添加" Style="{StaticResource DialogButton}" Width="100" Height="30" Margin="0,0,30,0" Click="btnManualResultAdd_Click"/>
+                            <Button Name="btnManualResultDelete" Content="删除" Style="{StaticResource DialogButton}" Width="100" Height="30" Margin="0,0,20,0" Click="btnManualResultDelete_Click"/>
+                        </StackPanel>
+
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

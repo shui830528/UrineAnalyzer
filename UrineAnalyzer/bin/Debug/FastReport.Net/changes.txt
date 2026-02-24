@@ -1,0 +1,416 @@
+Current version
+---------------
++ added new methods WebReportGlobals.ScriptsWOjQuery() and WebReportGlobals.StylesWOjQuery() for disable jQuery in WebReport (MVC Razor)
++ added property WebReport.ExternalJquery (default: false) for enable or disable jQuery in WebReport (ASPX)
++ added WeekOfYear function
++ added Slovenian localization
+
+
+Version 2013.2
+---------------
++ added support of ASP.NET MVC framework (ASPX, Razor) in WebReport
++ added new demos using WebReport in MVC - \Demos\C#\MvcDemo, \Demos\C#\MvcRazor
++ added save in cloud Google Drive from preview
++ added Greek localization
+* IMPORTANT! changed extension of WebReport handler (from FastReport.Export.aspx to FastReport.Export.axd), 
+  please check existing web.config
+- fixed bug in Dropbox export when Application Key and Secret
+- fixed bug in Dropbox with NullReferenceException
+- fixed bug with encoding when importing dDase file of Map in DBX export
+- fixed excel numeric formats bug
+- fixed bug with broken formats after matrix optimization in Excel 2007 export
+- fixed bug with font transparency of empty cells in Excel 2007 export
+- fixed bug with cell duplication on merged cells in Excel 2007 export
+- fixed bug with embedding of monospaced fonts in PDF and XPS exports
+- fixed bugs in WebReport with styles
+- fixed bug with WebReport.RepotDone
+- fixed bug with MasterPages in WebReport
+- fixed bug with printing chart legend
+- fixed bug in PictureObject
+
+Version 2013.1
+---------------
++ added dialogs in WebReport (some controls and features are in development now)
++ added Map object
++ added map editor in designer
++ added save in cloud Dropbox from preview
++ added save in cloud SkyDrive from preview
++ added AJAX in WebReport
++ added new customizable toolbar in WebReport
++ added AdjustSpannedCellsWidth property in Matrix and Table objects
++ added Wysiwyg property in Word 2007 export
++ added PrintOn.SinglePage to the PrintOn property (doublepass must be enabled)
++ added anchors support in the PDF export
++ added Armenian localization
++ added Label property to chart series
+- fixed bug when saving report to .cs/.vb file
+- fixed drag&drop bug in the code editor
+- fixed bug in the TXT export
+- fixed bug in the Word 2007 export in layer mode
+- fixed bug with number format in Excel exports
+- fixed bug in VB.Net code generator
+
+
+Version 1.9
+---------------
+* approved compatibility with Visual Studio 2012
++ added QR Code barcode
++ added support of UNC paths in WebReport storage (web.config)
++ added Exportable property to all report objects
++ added Config.PreviewSettings.PreviewOpened event
++ added BackPage property to the report page
++ added WebReport.XmlExcelDataOnly property
+* improved WebReport
+* improved TableObject performance
+* improved printing of data in the headers/footers
+- fixed bug with subreport & databand columns
+- fixed bug with subreport & band that can break
+- fixed bug with multiple preview tabs
+- fixed bug with Config.DesignerSettings.ApplicationConnection
+- fixed bug with pictures in PDF export
+- fixed bug with TableObject border when exporting to some formats
+- fixed bug in WebReport with multiple instances in one page
+- fixed bug in WebReport with cleanup of internal storage 
+- fixed bug with data filtering with NumericUpDown control
+
+
+Version 1.8
+---------------
++ added Web Farms and Web Gardens support in WebReport (example \Demos\C#\WebFarm\Web.Config)
++ added HoverStyle property to all report objects
++ added WebReport.CachePriority property
+* improved WebReport using ControlState instead of ViewState, increased speed and stability
+- fixed bug when opening RDL-file from recent files list
+- fixed bug with empty subreport
+- fixed bug in Crystal Reports import plugin (kind of some sections converted incorrectly)
+- fixed bug in Crystal Reports import plugin (report creation date converted incorrectly)
+- fixed bug in Crystal Reports import plugin (PaperOrientation property converted incorrectly)
+- fixed bug in Crystal Reports import plugin (incorrectly converted paper size for formats B4 and B5)
+- fixed bug in Crystal Reports import plugin (incorrectly converted groups)
+- fixed bug with subreport and KeepTogether
+- fixed bug with report parameters and undo/redo
+- fixed bug with null thickness and Dash or Dot style of lines in the PDF export
+- fixed bug with two-pass report and business object datasource
+- fixed bug with printing/exporting interactive reports
+- fixed bug when invoking WebReport component designer
+- fixed padding when exporting to RTF/Word2007
+- fixed bug in PDF export (images and encryption)
+- fixed bug with images when editing a prepared report
+- fixed number format when exporting to Excel
+
+
+Version 1.7
+---------------
++ added Config.DesignerSettings.PageAdded event
++ added Config.PreviewSettings.AllowPrintToFile property
++ added Report.MaxPages property
++ added import plugin from Crystal Reports
++ added MatrixObject.KeepCellsSideBySide property
++ added outline in the PDF export
++ added properties TableRow.KeepRows, TableColumn.KeepColumns
++ added TableObject.ManualBuildAutoSpans property
++ added ability to hide some objects (export filters, report objects) by the code: RegisteredObjects.FindObject(typeof(PDFExport)).Enabled = false
+* improved report file cache
+* improved .fpx loading speed/memory usage
+* CheckBoxObject is available in the Basic edition
+- fixed bug with rendering of text in WebReport when TextObject.WordWrap = false;
+- fixed memory leak when exporting to PDF with embedded fonts
+- fixed bug with band break
+- fixed bug with information fields in the encrypted PDF file
+- fixed bug with page borders and fill in the PDF export
+- fixed bug in RichObject
+- fixed bug in the report preview
+- fixed bug when saving the report as a class
+- fixed bug with some image types
+- fixed bug with text break
+- fixed bug with events
+- fixed RichObject height issue
+- fixed bug in PDF export (missing pictures when viewing under MAC OS or iOS)
+- fixed bug with grid alignment
+- fixed bug with band's CanBreak and outline
+- fixed bug when exporting to metafile
+- fixed bug with unary minus with totals
+- fixed bug with watermark
+
+
+Version 1.6
+---------------
++ added Report.InitialPageNumber property
++ added Romanian and Hungarian localization
++ added TextObject.ParagraphOffset property
++ added ability to save template to RDL format (Report Definition Language)
++ added PreviewControl.UseBackColor property
++ added IsNull function to check DB columns for null
++ added Thai localization
++ added import of WritingMode property when import template from RDL format
++ added saving of TextObject.Angle property when saving template in RDL format
++ added FNC1 symbol encoding in the Datamatrix barcode (use &1; sequence)
++ added Open Document Text, XPS, DBF exports in WebReport
+* added ability to replace built-in query builder
+* changed work of exports and printing in WebReport, now we use handlers in "web.config" 
+- fixed "Scale" print mode
+- fixed bug with RichObject and CanShrink
+- fixed bug in TextObject break
+- fixed bug in TextObject.TabWidth
+- fixed bug when saving the prepared report with UseFileCache flag
+- fixed RichObject multi-thread issues
+- fixed bug when opening some saved to RDL reports in the Report Builder
+- fixed bug in the Group Expert
+- fixed bug with ChartObject filter when saving the report as a C#/VB.Net class
+- fixed bug when converting boolean expressions in the RDL import
+- fixed bug with internal manifest in ODF export 
+
+
+Version 1.5
+---------------
++ added import from RDL format (Report Definition Language)
++ added XPS export
++ added Word 2007 (docx) export
++ added DataBand.ResetPageNumber property
++ added properties PDFExport.JpegQuality and PDFExport.RichTextQuality (default value is 90 in both)
++ added Slovak localization
++ added support for custom functions in the matrix totals
++ added calculation of percents in the Matrix object
++ added TotalsFirst option for the matrix totals
++ added property HTMLExport.Layers and a checkbox in the dialog of the HTML export (enable layers in HTML file)
++ added Config.ReportSettings.ReportPrinted event
++ added DataLoaded event to all dialog controls that support data filtering
++ added inline printing from browser in WebReport
++ added property WebReport.PrintInPdf (enable for PDF printing or disable for browser printing)
++ added properties WebReport.PrintWindowWidth, WebReport.PrintWindowHeight
++ added properties WebReport.ShowWord2007Export, WebReport.DocxMatrixBased
+* DbfExport properties FieldNamesFileName, LoadFieldNamesFromFile replaced with FieldNames property
+* improved TextObject.Duplicates
+- fixed text object's html tags + "underline" font style
+- fixed "keep with data" + multicolumn databand
+- fixed bug with paper size
+- fixed bug when rendering several side-by-side Table objects
+- fixed bug with report outline
+- fixed bug in RTF export with similar pictures
+- fixed bug with CheckedListBoxControl + cascaded filter
+- fixed bug with subreport and multi-column band
+- fixed bug with FirstTabOffset
+- fixed bug with static query parameters and master-detail report
+- fixed bug in the PowerPoint export
+- fixed bug with Matrix and EvenStyle
+
+Version 1.4
+---------------
++ added Visual Studio 2010 support
++ added support of font subsets in PDF export
++ added SQL CE connection
++ added HierachyRow# system variable which returns the row number like "1.2.1" in the hierarchical report
++ added support for table schema in OleDB and ODBC connectors 
++ added NumToWordsEs function for spanish
++ added Dutch localization
++ added Ukrainian localization
++ added Config.ReportSettings.DefaultPaperSize property
++ added HTMLExport.Print property (show the browser's print dialog when html document is opened, available only in "single page" mode)
++ added HTMLExport.PageBreaks property (insert hard page breaks in "single page" mode)
++ added ForceLoadData property to all datasources
++ added band.FirstRowStartsNewPage property
++ added Parameter.Description property
++ added Config.TempFolder property
++ added report.ReportInfo.PreviewPictureRatio property
++ added DataBand.PrintIfDatasourceEmpty property
++ added ChildBand.PrintIfDatabandEmpty property
++ added Config.DesignerSettings.Restrictions.DontCreateData restriction to disable the "Data|Add Data Source..." menu
+- fixed bug with Row# and StartNewPage
+- fixed bug with Nullable custom functions
+- fixed bug with bands which CanBreak and StartNewPage properties set to true
+- fixed bug in HTML export (skip of styles when many pages exported in "single page" mode)
+- fixed bug with registration of plugins
+- fixed bug with dialog controls attached to a calculated column
+- fixed bug in the query builder (wrong join type)
+- fixed dialogue forms controls order
+- fixed bug with Dock != None and CanGrow, CanShrink
+- fixed bug in HTML export
+- fixed bug with "Save printer in the report file" option
+- fixed bug in Chart object (ClearValues method does not work)
+- fixed bug in the Data Wizard
+- fixed bug in totals when the "Convert null values" option is off
+- fixed bug with saving report as VB class
+- fixed outline in a hierarchical report
+- fixed bug in the Chart object (when trying to group unsorted data by months)
+- fixed bug in the Data Wizard under Vista OS
+- fixed bug with embedded TTC fonts in PDF export
+- fixed bug when exporting TableObject with invisible rows
+* improved "Data Wizard" dialog (loading the table list is much faster now)
+* designer command DesignerControl.cmdData replaced with cmdAddData and cmdChooseData commands
+* reduced the resulting file size in HTML export
+* improved performance with very deep business objects
+* tables in the "Data Wizard" window are sorted now, "Sort tables" button removed
+* small improvements in the Data window (ability to move up/down the report parameters using Ctrl+Up/Down keys)
+* the installer is now automatically adds all FastReport.Net assemblies to the GAC
+* assembly FastReport.dll split into two parts - FastReport.dll, FastReport.Web.dll
+
+
+Version 1.3
+---------------
++ added monochrome TIFF export
++ added Excel 2007 export
++ added PowerPoint 2007 export
++ added MHT (web-archive) export
++ added DBF export
++ added ODBC connection
++ added Oracle ODP.NET connection
++ added ability to print copy name on the printed page (see "Features/Print Copy Names" report)
++ added built-in support for cascaded data filtering (DetailControl property). See the "Dialogs/Cascaded Data Filtering" report
++ added "apply" flags to the style elements
++ added band's context menu items for easy creation of child band and detail data band
++ added TextObject.NullValue property (to replace null values with specified string)
++ added TextObject.ProcessAt property (allows to print totals in the header)
++ added the ImageExport.MonochromeTiffCompression property
++ added HTMLExport.WidthUnits, HTMLExport.HeightUnits properties (allows selection between Pixel and Percent)
++ added the Message-HTML (MHT, MHTML, web-archive) mode in HTML export (HTMLExport.Format property)
++ added Config.DesignerSettings.FilterConnectionTables event
++ added DataSourceBase.Load event to load detail rows in code
++ added Croatian localization
++ added Persian localization
++ added new demo projects in the Demos\VB.Net folder
++ added "Script/Sort Group By Total" report
+* improved "Keep with data" mechanism
+- fixed bug with Matrix and Table objects (Visible property is not working)
+- fixed bug with MS SQL connection (can't use tables in schemas other than dbo.*)
+- fixed bug in Medium Trust mode
+- fixed bug in business objects (duplicate datasource names)
+- fixed bug in dialogue forms (switch to the dialog page may throw an exception)
+- fixed bug in query builder
+- fixed bug with OutlineExpression and RepeatOnEveryPage
+- fixed bug with KeepChild
+- fixed bug with exporting barcodes
+- fixed bug in dialogue controls (Enabled & data filtering)
+- fixed bug with RepeatOnEveryPage band with child
+- fixed Matrix&Table bug (infinite loop if there is not enough space to print a column)
+- fixed bug in PDF export (file structure)
+- fixed designer exception when copying the total
+- fixed exception when closing the designer
+- fixed bug with disabling the navigator in HTML export
+- fixed bug with size of WebReport in percents
+- fixed PDF export (digits substitution in Arabic)
+- fixed bug with sorting on a calculated column
+- fixed bug in the PDF export (export of band with zero height and non-solid fill)
+- fixed bug in the text/expression editor (drag&drop items from the data tree)
+- fixed bug in the Excel 2007 export
+- fixed bug in the printer settings dialog (printer properties)
+- fixed bug with Outline when several reports are joined into one
+- fixed search in the preview
+- fixed bug in the group when there is no data to display
+
+
+Version 1.2
+---------------
++ added Functions in the "Data" window
++ added new report objects - CellularTextObject, ZipCodeObject
++ added report's Email settings (see Report|Options... menu, "Email" tab)
++ added multi-frame TIFF export
++ added RC4 128-bit encryption in PDF export
++ added "Visible" flag in the highlight editor. Now the highlight condition may hide the object
++ added TextObject's AutoShrink, AutoShrinkMinSize properties
++ added DataBand's RowCount property
++ added ReportPage.ManualBuild event
++ added PictureObject.Angle property
++ added AfterData event to all report objects
++ added CommandTimeout property to all connections
++ added export of watermarks in HTML format
++ added export of underlined TextObject (Underlines = true) in PDF format
++ added Swedish, Chinese (Traditional), Czech, Turkish, Spanish localizations
++ added new demo reports in the "Report Objects" category
++ added new demo projects in the Demos folder
+* POSSIBLE BREAKING CHANGE! changes in the business objects engine. See details here:
+http://www.fast-report.com/en/forum/index.php?showtopic=5695
+* improved performance (loading and running reports with lot of objects)
+* you can use Anchor property of report objects when printing hierarchical bands
+* changed default extension of resulting file in Excel(XML) export from *.xls to *.xml
+* changes in Excel(XML) export - added export of numeric values
+* changes in Matrix object
+* improvements in hierarchical reports (header/footers, totals)
+- fixed bug in VB.Net report language
+- fixed bug in Viewer.exe (exception if window is too small)
+- fixed bug with selecting Report in the ReportTree in VS design-mode
+- fixed bug when using WebReport with MasterPage
+- fixed bug with RTL in HTML export and WebReport
+- fixed bug with RTL in RichText(rtf) export
+- fixed bug in MS Chart (border width is not scaled properly when printing)
+- fixed bug with preview window's "Search" dialog
+- fixed bug with Nullable<T> column type
+- fixed bug in PDF export when exporting complex fills
+- fixed bug with export different frame styles in XML and RichText formats
+- fixed bug when editing prepared report
+- fixed printing of CellularTextObject
+- fixed bug with dialogue form
+- fixed bug with Entity Framework in ASP.NET mode
+- fixed bug in PageSetup dialog in preview
+- fixed bug with rendering side-by-side Matrix objects
+- fixed bug in Label wizard
+- fixed bug with send email via MAPI
+
+
+Version 1.1
+---------------
++ added new UI styles - Office2007Blue, Office2007Silver, Office2007Black, VistaGlass. 
+You can choose the designer and the preview form appearance using the EnvironmentSettings
+component (its UIStyle property)
++ added CSV export
++ added Text/Dot-matrix export
++ added Designer.exe and Viewer.exe end-user applications
++ added DesignerControl control
++ added the "Format Painter" command to the standard toolbar
++ added two new system variables - "TotalPage#" and "Page#"
++ added design-time support for BindingSource
++ added the property "RTFExport.ImageFormat"
++ added HideIfNoData, NoDataText properties to BarcodeObject
++ added new demo project - MdiDesigner
++ added "Table/Fit Dynamic Table To Page" report
++ added "Dialogs/Cascaded Data Filtering" report
++ added "Interactive Reports/Interactive Matrix With Chart" report
++ added "Dialogs/Labels With Dialog" report
++ added Chinese (simplified) localization
++ added Arabic localization
++ added export of transparent colors and pictures (alpha blending) in PDF format
++ added export of lines, arrows, rectangle shapes, shadows in PDF format
++ added export of page watermarks in PDF format
++ added export of dash-dot patterns in PDF format
++ added export of horizontal and vertical lines, rectangle shapes, shadows in Excel(xml), 
+RichText, OpenOffice and HTML formats
+* enhanced support of Unicode in PDF export
+* MSChart object moved to main FastReport.dll, no need to plug-in it anymore
+* FastReport.Dock library now replaced with FastReport.Bars
+- fixed bug with designer in Vista 64-bit
+- fixed bug with subreport & breaked band
+- fixed Matrix object bug (break spanned cell)
+- fixed bug with creating an event handler for multiple selected objects
+- fixed bug in PDF export with right border of table object
+- fixed focus lost when closing the preview window
+- fixed error with text justification
+- fixed error in data window (when you pass bad DataRelation object)
+- fixed bug in VS IDE (designer silently closes after you close the preview)
+- fixed bug with clipboard keys in TextObject in-place edit mode
+- fixed bug with MS SQL guid-type parameter
+- fix in business objects processing
+- fixed bug with subreport's PrintOnParent
+- fixed issue with printing static & dynamic TableObjects on the same band
+- fixed bug with report parameters
+- fixed bug with SQL parameters
+- fixed duplicate table names issue
+- fixed TableRow, TableColumn "Visible" property
+- fixed Matrix "Count" function
+- fixed bug with TableObject break
+- fixed bug with relations and empty data columns
+- fixed rotation of text in Excel(xml), RichText, OpenOffice, HTML and PDF export
+- fixed bug with subreport and "RepeatOnEveryPage" flag
+- fixed bug with inserting items of "generic" data type from "Data" window to a script
+- fixed bug with incorrect escaping of "Script" node content in the .frx file
+- fixed bug with delays in the designer when selecting a lot of objects
+- fixed bug with PictureObject.Tile
+- fixed bug with page breaks and margins in XML export
+- fixed bug with export of different border lines in Excel(xml), RichText, 
+OpenOffice, HTML and PDF export
+- fixed bug with underlined and strikeout text in PDF export
+- fixed bug with borders of TableObject in PDF export
+- fixed bug with document title in PDF export
+
+
+Version 1.0.163
+---------------
+Initial release

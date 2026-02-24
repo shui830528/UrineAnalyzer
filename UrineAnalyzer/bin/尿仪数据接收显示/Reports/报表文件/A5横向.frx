@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/31/2017 09:24:49" ReportInfo.Modified="05/10/2019 09:38:30" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <MsAccessDataConnection Name="Connection" ConnectionString="rijcmlqoDWEBRlB24atBGpA/h9/NbwdWKfjN0xexwR499WDO0zZGZwKu3bv6KUWRCC5/0oxBI9IunQ1+fijHDZG6zvWowBKf5IxZp0/0zN4gYDZfRTDdlzPZeqmwKZPkgNHDv3/e1FNOhnBnYNwC5PW4GevHNNQMGOfOGmms8FhjIRsQReeu+muFt6Gx/JvTIFgQUv0">
+      <TableDataSource Name="Table" Alias="Query" DataType="System.Int32" Enabled="true" SelectCommand="select * from Tab_SampleInfo si where si.SampleID = 2 and si.RegistDate = #2017-10-14 15:46:21#">
+        <Column Name="SampleID" DataType="System.Int32"/>
+        <Column Name="RegistDate" DataType="System.DateTime"/>
+        <Column Name="BarCode" DataType="System.String"/>
+        <Column Name="CheckDate" DataType="System.DateTime"/>
+        <Column Name="PatientName" DataType="System.String"/>
+        <Column Name="PatientAge" DataType="System.Int32"/>
+        <Column Name="PatientAgeUnit" DataType="System.String"/>
+        <Column Name="PatientSex" DataType="System.String"/>
+        <Column Name="IsEmergency" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="CaseNo" DataType="System.String"/>
+        <Column Name="BedNo" DataType="System.String"/>
+        <Column Name="PatientType" DataType="System.String"/>
+        <Column Name="SendCheckDoctor" DataType="System.String"/>
+        <Column Name="SendCheckOffice" DataType="System.String"/>
+        <Column Name="SendCheckDate" DataType="System.DateTime"/>
+        <Column Name="SampleType" DataType="System.String"/>
+        <Column Name="CheckDoctor" DataType="System.String"/>
+        <Column Name="Auditor" DataType="System.String"/>
+        <Column Name="Clinical" DataType="System.String"/>
+        <Column Name="Remarks" DataType="System.String"/>
+        <Column Name="IsPrint" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="IsAuditor" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="IsLis" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="ImportDate" DataType="System.DateTime"/>
+        <Column Name="IsTest" DataType="System.Boolean" BindableControl="CheckBox"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="AnalyzerQuery" DataType="System.Int32" Enabled="true" SelectCommand="select si.*,item.ItemNameCN from Tab_SampleAnalyzerResult si left join Tab_Item item on si.ItemName = item.ItemID where si.SampleID = 2 and si.RegistDate = #2017-10-14 15:46:21#">
+        <Column Name="SampleID" DataType="System.Int32"/>
+        <Column Name="RegistDate" DataType="System.DateTime"/>
+        <Column Name="ItemID" DataType="System.Int32"/>
+        <Column Name="ItemAbnormal" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="ItemResult" DataType="System.String"/>
+        <Column Name="ItemUnit" DataType="System.String"/>
+        <Column Name="ItemRange" DataType="System.String"/>
+        <Column Name="ItemNameCN" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Table2" Alias="ManualQuery" DataType="System.Int32" Enabled="true" SelectCommand="select si.*,item.ItemNameCN from Tab_SampleManualResult si left join Tab_Item item on si.ItemName = item.ItemID where si.SampleID = 2 and si.RegistDate = #2017-10-14 15:46:21#">
+        <Column Name="SampleID" DataType="System.Int32"/>
+        <Column Name="RegistDate" DataType="System.DateTime"/>
+        <Column Name="ItemID" DataType="System.Int32"/>
+        <Column Name="ItemAbnormal" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="ItemResult" DataType="System.String"/>
+        <Column Name="ItemUnit" DataType="System.String"/>
+        <Column Name="ItemRange" DataType="System.String"/>
+        <Column Name="ItemNameCN" DataType="System.String"/>
+      </TableDataSource>
+    </MsAccessDataConnection>
+    <Parameter Name="HospitalTitle" DataType="System.String"/>
+    <Parameter Name="SampleTitle" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="210.1" PaperHeight="148.1" RawPaperSize="11" FirstPageSource="15" OtherPagesSource="15">
+    <ReportTitleBand Name="ReportTitle1" Width="718.58" Height="47.25">
+      <TextObject Name="Text1" Left="160.65" Top="9.45" Width="349.65" Height="18.9" Text="[SampleTitle]" Font="黑体, 15.75pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="51.42" Width="718.58" Height="75.6">
+      <TextObject Name="Text2" Left="18.9" Width="47.25" Height="18.9" Text="姓名：" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="18.9" Top="28.35" Width="47.25" Height="18.9" Text="性别：" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="18.9" Top="56.7" Width="47.25" Height="18.9" Text="年龄：" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Left="66.15" Width="94.5" Height="18.9" Text="[Query.PatientName]" Font="宋体, 9pt"/>
+      <TextObject Name="Text6" Left="66.15" Top="28.35" Width="94.5" Height="18.9" Text="[Query.PatientSex]" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="66.15" Top="56.7" Width="28.35" Height="18.9" Text="[Query.PatientAge]" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="94.5" Top="56.7" Width="66.15" Height="18.9" Text="[Query.PatientAgeUnit]" Font="宋体, 9pt"/>
+      <TextObject Name="Text9" Left="170.1" Width="66.15" Height="18.9" Text="病历号：" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="170.1" Top="28.35" Width="66.15" Height="18.9" Text="科  室：" Font="宋体, 9pt"/>
+      <TextObject Name="Text11" Left="170.1" Top="56.7" Width="66.15" Height="18.9" Text="床  号：" Font="宋体, 9pt"/>
+      <TextObject Name="Text12" Left="236.25" Width="94.5" Height="18.9" Text="[Query.CaseNo]" Font="宋体, 9pt"/>
+      <TextObject Name="Text13" Left="236.25" Top="28.35" Width="94.5" Height="18.9" Text="[Query.SendCheckOffice]" Font="宋体, 9pt"/>
+      <TextObject Name="Text14" Left="236.25" Top="56.7" Width="94.5" Height="18.9" Text="[Query.BedNo]" Font="宋体, 9pt"/>
+      <TextObject Name="Text15" Left="349.65" Width="75.6" Height="18.9" Text="病人类型：" Font="宋体, 9pt"/>
+      <TextObject Name="Text16" Left="349.65" Top="28.35" Width="75.6" Height="18.9" Text="样本类型：" Font="宋体, 9pt"/>
+      <TextObject Name="Text17" Left="349.65" Top="56.7" Width="75.6" Height="18.9" Text="送检日期：" Font="宋体, 9pt"/>
+      <TextObject Name="Text18" Left="425.25" Width="94.5" Height="18.9" Text="[Query.PatientType]" Font="宋体, 9pt"/>
+      <TextObject Name="Text19" Left="425.25" Top="28.35" Width="94.5" Height="18.9" Text="[Query.SampleType]" Font="宋体, 9pt"/>
+      <TextObject Name="Text20" Left="425.25" Top="56.7" Width="94.5" Height="18.9" Text="[Query.SendCheckDate]" Format="Date" Format.Format="d" Font="宋体, 9pt"/>
+      <TextObject Name="Text21" Left="529.2" Width="75.6" Height="18.9" Text="样本编号：" Font="宋体, 9pt"/>
+      <TextObject Name="Text22" Left="529.2" Top="28.35" Width="75.6" Height="18.9" Text="送检医生：" Font="宋体, 9pt"/>
+      <TextObject Name="Text23" Left="529.2" Top="56.7" Width="75.6" Height="18.9" Text="备    注：" Font="宋体, 9pt"/>
+      <TextObject Name="Text24" Left="604.8" Width="94.5" Height="18.9" Text="[Query.SampleID]" Font="宋体, 9pt"/>
+      <TextObject Name="Text25" Left="604.8" Top="28.35" Width="94.5" Height="18.9" Text="[Query.SendCheckDoctor]" Font="宋体, 9pt"/>
+      <TextObject Name="Text26" Left="604.8" Top="56.7" Width="94.5" Height="18.9" Text="[Query.Remarks]" Font="宋体, 9pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="131.18" Width="718.58" Height="321.3">
+      <SubreportObject Name="Subreport1" Left="18.9" Top="37.8" Width="94.5" Height="18.9" ReportPage="Page2" PrintOnParent="true"/>
+      <LineObject Name="Line2" Left="9.45" Top="18.9" Width="699.3"/>
+      <TextObject Name="Text29" Left="85.05" Top="18.9" Width="56.7" Height="18.9" Text="项目" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text30" Left="151.2" Top="18.9" Width="56.7" Height="18.9" Text="结果" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text31" Left="311.85" Top="18.9" Width="47.25" Height="18.9" Text="参考值" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <LineObject Name="Line3" Left="9.45" Top="37.8" Width="699.3"/>
+      <TextObject Name="Text32" Left="245.7" Top="18.9" Width="56.7" Height="18.9" Text="单位" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text33" Left="387.45" Top="18.9" Width="56.7" Height="18.9" Text="代号" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text34" Left="453.6" Top="18.9" Width="56.7" Height="18.9" Text="项目" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text35" Left="519.75" Top="18.9" Width="56.7" Height="18.9" Text="结果" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text36" Left="652.05" Top="18.9" Width="56.7" Height="18.9" Text="参考值" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text37" Left="585.9" Top="18.9" Width="56.7" Height="18.9" Text="单位" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <LineObject Name="Line1" Left="9.45" Width="699.3"/>
+      <TextObject Name="Text27" Left="18.9" Width="94.5" Height="18.9" Text="1.干化学分析" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <TextObject Name="Text38" Left="387.45" Width="94.5" Height="18.9" Text="2.手工镜检" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <LineObject Name="Line5" Left="368.55" Height="321.3"/>
+      <TextObject Name="Text28" Left="18.9" Top="18.9" Width="56.7" Height="18.9" Text="代号" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+      <SubreportObject Name="Subreport2" Left="387.45" Top="37.8" Width="94.5" Height="18.9" ReportPage="Page3" PrintOnParent="true"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="456.65" Width="718.58" Height="37.8">
+      <LineObject Name="Line4" Left="9.45" Top="-2" Width="699.3"/>
+      <TextObject Name="Text39" Left="18.9" Width="66.15" Height="18.9" Text="检验日期:" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text40" Left="85.05" Width="122.85" Height="18.9" Text="[Query.CheckDate]" Format="Date" Format.Format="d" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text41" Left="217.35" Width="66.15" Height="18.9" Text="报告日期:" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text42" Left="283.5" Width="132.3" Height="18.9" Text="[Date]" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text43" Left="434.7" Width="56.7" Height="18.9" Text="检验人:" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text44" Left="491.4" Width="94.5" Height="18.9" Text="[Query.CheckDoctor]" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text45" Left="585.9" Width="56.7" Height="18.9" Text="审核人:" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text46" Left="642.6" Width="94.5" Height="18.9" Text="[Query.Auditor]" VertAlign="Bottom" Font="宋体, 9pt"/>
+      <TextObject Name="Text47" Left="18.9" Top="18.9" Width="689.85" Height="18.9" Text="[HospitalTitle]" VertAlign="Bottom" Font="宋体, 9pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page2">
+    <DataBand Name="Data2" Width="718.2" Height="18.9" DataSource="Table1">
+      <TextObject Name="Text48" Width="56.7" Height="18.9" Text="[AnalyzerQuery.ItemName]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text50" Left="66.15" Width="66.15" Height="18.9" Text="[AnalyzerQuery.ItemNameCN]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text51" Left="132.3" Width="94.5" Height="18.9" Text="[AnalyzerQuery.ItemResult]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text52" Left="226.8" Width="66.15" Height="18.9" Text="[AnalyzerQuery.ItemUnit]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text53" Left="292.95" Width="94.5" Height="18.9" Text="[AnalyzerQuery.ItemRange]" VertAlign="Center" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+  <ReportPage Name="Page3">
+    <DataBand Name="Data3" Width="718.2" Height="18.9" DataSource="Table2">
+      <TextObject Name="Text49" Width="66.15" Height="18.9" Text="[ManualQuery.ItemName]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text54" Left="66.15" Width="66.15" Height="18.9" Text="[ManualQuery.ItemNameCN]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text55" Left="132.3" Width="66.15" Height="18.9" Text="[ManualQuery.ItemResult]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text56" Left="198.45" Width="66.15" Height="18.9" Text="[ManualQuery.ItemUnit]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text57" Left="264.6" Width="94.5" Height="18.9" Text="[ManualQuery.ItemRange]" VertAlign="Center" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

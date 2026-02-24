@@ -1,0 +1,80 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2017-10-27 15:39:30  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:39:45  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:40:31  】【  没有为命令对象设置命令。 : DB.Query执行错误 :   】
+【  2017-10-27 15:41:06  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:41:07  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:41:35  】【  没有为命令对象设置命令。 : DB.Query执行错误 :   】
+【  2017-10-27 15:42:05  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:42:06  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:44:04  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:44:05  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:44:28  】【  没有为命令对象设置命令。 : DB.Query执行错误 :   】
+【  2017-10-27 15:45:09  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:45:10  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:52:35  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:52:36  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:52:54  】【  至少一个参数没有被指定值。 : DB.Query执行错误 : select * from Tab_SampleAnalyzerResult where (SampleID >= 1 and SampleID <= 2) and CheckDate = #2017-10-14 0:00:00#  】
+【  2017-10-27 15:53:22  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:53:23  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 15:54:39  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 15:54:40  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:03:57  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:03:58  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:04:26  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:04:27  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:05:11  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:05:12  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:05:49  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:05:50  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:08:49  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:08:50  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:11:34  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:11:35  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:14:35  】【  Connection Thread ID 12 Count : 2  】
+【  2017/10/27 16:14:35  】【  至少一个参数没有被指定值。 : DB.Query执行错误 : select * from Tab_SampleAnalyzerResult where SampleID = 1 and CheckDate = #2017/10/14 13:53:01#  】
+【  2017-10-27 16:15:23  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:15:24  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017-10-27 16:28:19  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:28:20  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:29:39  】【  Connection Thread ID 11 Count : 2  】
+【  2017/10/27 16:29:59  】【  至少一个参数没有被指定值。 : DB.Query执行错误 : select * from Tab_SampleAnalyzerResult where SampleID = 1 and CheckDate = #2017/10/14 13:53:01#  】
+【  2017-10-27 16:34:01  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:34:02  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:34:23  】【  Connection Thread ID 11 Count : 2  】
+【  2017-10-27 16:48:45  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:48:46  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:49:01  】【  Connection Thread ID 11 Count : 2  】
+【  2017-10-27 16:50:09  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:50:10  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:50:30  】【  Connection Thread ID 11 Count : 2  】
+【  2017-10-27 16:51:48  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:51:49  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:52:01  】【  Connection Thread ID 11 Count : 2  】
+【  2017-10-27 16:53:08  】【  Connection Thread ID 1 Count : 1  】
+【  2017-10-27 16:53:09  】【  PortName 不能为空。
+参数名: PortNameSerialPort.Open Error  】
+【  2017/10/27 16:53:19  】【  Connection Thread ID 11 Count : 2  】
+【  2017/10/27 17:00:39  】【  Connection Thread ID 16 Count : 3  】

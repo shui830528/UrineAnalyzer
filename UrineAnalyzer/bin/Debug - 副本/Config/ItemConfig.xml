@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <CurUnitType CurUnitType="5" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_UBG UnitType="2" ItemID="0" Unit="mg/dL" Name="UBG" Range="" Results="^0.2|^1|^2|^4|^&gt;=8|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_BIL UnitType="2" ItemID="1" Unit="mg/dL" Name="BIL" Range="" Results="^Neg|^1|^3|^&gt;=6|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_KET UnitType="2" ItemID="2" Unit="mg/dL" Name="KET" Range="" Results="^Neg|^5|^15|^40|^&gt;=80|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_CRE UnitType="2" ItemID="3" Unit="mg/dL" Name="CRE" Range="" Results="^10|^50|^100|^200|^300|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_BLD UnitType="2" ItemID="4" Unit="Ery/uL" Name="BLD" Range="" Results="^Neg|^Ca10|^Ca25|^Ca80|^&gt;=Ca200|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_PRO UnitType="2" ItemID="5" Unit="mg/dL" Name="PRO" Range="" Results="^Neg|^Trace|^30|^100|^&gt;=300|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_MAL UnitType="2" ItemID="6" Unit="mg/L" Name="MALB" Range="" Results="^10|^30|^80|^150|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_NIT UnitType="2" ItemID="7" Unit="" Name="NIT" Range="" Results="^Neg|^Pos|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_LEU UnitType="2" ItemID="8" Unit="Leu/uL" Name="LEU" Range="" Results="^Neg|^Ca15|^Ca75|^Ca125|^&gt;=Ca500|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_GLU UnitType="2" ItemID="9" Unit="mg/dL" Name="GLU" Range="" Results="^Neg|^100|^250|^500|^&gt;=1000|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_SG UnitType="2" ItemID="10" Unit="" Name="SG" Range="" Results="^&lt;=1.005|^1.010|^1.015|^1.020|^1.025|^&gt;=1.030|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_PH UnitType="2" ItemID="11" Unit="" Name="pH" Range="" Results="^&lt;=5.0|^5.5|^6.0|^6.5|^7.0|^7.5|^8.0|^8.5|^&gt;=9.0|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_VC UnitType="2" ItemID="12" Unit="mg/dL" Name="VC" Range="" Results="^0|^10|^25|^50|^&gt;=100|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_AC UnitType="2" ItemID="13" Unit="mg/g" Name="A:C" Range="" Results="^&lt;30|^30-300|^&gt;300|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_OFF_EM_CHEMICAL_ITEM_RESULT UnitType="2" ItemID="15" Unit="" Name="RT" Range="" Results="^Normal|^Abnormal|^High abnormal|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_UBG UnitType="4" ItemID="0" Unit="umol/L" Name="UBG" Range="" Results="^3.4|^17|^34|^68|^&gt;=135|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_BIL UnitType="4" ItemID="1" Unit="umol/L" Name="BIL" Range="" Results="^Neg|^17|^51|^&gt;=103|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_KET UnitType="4" ItemID="2" Unit="mmol/L" Name="KET" Range="" Results="^Neg|^0.5|^1.5|^3.9|^&gt;=7.8|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_CRE UnitType="4" ItemID="3" Unit="mmol/L" Name="CRE" Range="" Results="^0.9|^4.4|^8.8|^17.7|^26.5|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_BLD UnitType="4" ItemID="4" Unit="Ery/uL" Name="BLD" Range="" Results="^Neg|^Ca10|^Ca25|^Ca80|^&gt;=Ca200|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_PRO UnitType="4" ItemID="5" Unit="g/L" Name="PRO" Range="" Results="^Neg|^Trace|^0.3|^1.0|^&gt;=3.0|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_MAL UnitType="4" ItemID="6" Unit="mg/L" Name="MALB" Range="" Results="^10|^30|^80|^150|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_NIT UnitType="4" ItemID="7" Unit="" Name="NIT" Range="" Results="^Neg|^Pos|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_LEU UnitType="4" ItemID="8" Unit="Leu/uL" Name="LEU" Range="" Results="^Neg|^Ca15|^Ca75|^Ca125|^&gt;=Ca500|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_GLU UnitType="4" ItemID="9" Unit="mmol/L" Name="GLU" Range="" Results="^Neg|^5.6|^14|^28|^&gt;=56|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_SG UnitType="4" ItemID="10" Unit="" Name="SG" Range="" Results="^&lt;=1.005|^1.010|^1.015|^1.020|^1.025|^&gt;=1.030|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_PH UnitType="4" ItemID="11" Unit="" Name="pH" Range="" Results="^&lt;=5.0|^5.5|^6.0|^6.5|^7.0|^7.5|^8.0|^8.5|^&gt;=9.0|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_VC UnitType="4" ItemID="12" Unit="mmol/L" Name="VC" Range="" Results="^0|^0.6|^1.4|^2.8|^&gt;=5.7|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_AC UnitType="4" ItemID="13" Unit="mg/mmol" Name="A:C" Range="" Results="^&lt;3.4|^3.4-33.9|^&gt;33.9|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_OFF_EM_CHEMICAL_ITEM_RESULT UnitType="4" ItemID="15" Unit="" Name="RT" Range="" Results="^Normal|^Abnormal|^High abnormal|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_UBG UnitType="5" ItemID="0" Unit="" Name="UBG" Range="" Results="^Normal|^Normal|*^1+|*^2+|*^3+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_BIL UnitType="5" ItemID="1" Unit="" Name="BIL" Range="" Results="^Neg|^1+|^2+|^3+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_KET UnitType="5" ItemID="2" Unit="" Name="KET" Range="" Results="^Neg|^+-|*^1+|*^2+|*^3+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_CRE UnitType="5" ItemID="3" Unit="mmol/L" Name="CRE" Range="" Results="^0.9|^4.4|*^8.8|*^17.7|^26.5|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_BLD UnitType="5" ItemID="4" Unit="" Name="BLD" Range="" Results="^Neg|^+-|*^1+|*^2+|*^3+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_PRO UnitType="5" ItemID="5" Unit="" Name="PRO" Range="" Results="^Neg|^Trace|*^1+|*^2+|*^3+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_MAL UnitType="5" ItemID="6" Unit="mg/L" Name="MALB" Range="" Results="^10|^30|*^80|*^150|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_NIT UnitType="5" ItemID="7" Unit="" Name="NIT" Range="" Results="^Neg|*^Pos|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_LEU UnitType="5" ItemID="8" Unit="" Name="LEU" Range="" Results="^Neg|^+-|*^1+|*^2+|*^3+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_GLU UnitType="5" ItemID="9" Unit="" Name="GLU" Range="" Results="^Neg|*^1+|*^2+|*^3+|*^4+|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_SG UnitType="5" ItemID="10" Unit="" Name="SG" Range="" Results="^&lt;=1.005|^1.010|^1.015|^1.020|^1.025|^&gt;=1.030|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_PH UnitType="5" ItemID="11" Unit="" Name="pH" Range="" Results="^&lt;=5.0|^5.5|^6.0|^6.5|^7.0|^7.5|^8.0|^8.5|^&gt;=9.0|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_VC UnitType="5" ItemID="12" Unit="mmol/L" Name="VC" Range="" Results="^0|^0.6|^1.4|^2.8|^&gt;=5.7|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_AC UnitType="5" ItemID="13" Unit="mg/mmol" Name="A:C" Range="" Results="^&lt;3.4|^3.4-33.9|^&gt;33.9|" />
+  <EM_ITEM_UNITTYPE_PLUS_EM_CHEMICAL_ITEM_RESULT UnitType="5" ItemID="15" Unit="" Name="RT" Range="" Results="^Normal|^Abnormal|^High abnormal|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_UBG UnitType="1" ItemID="0" Unit="mg/dL" Name="UBG" Range="" Results="^Normal 0.2|^Normal 1|^1+ 2|^2+ 4|^3+ &gt;=8|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_BIL UnitType="1" ItemID="1" Unit="mg/dL" Name="BIL" Range="" Results="^Neg|^1+ 1|^2+ 3|^3+ &gt;=6|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_KET UnitType="1" ItemID="2" Unit="mg/dL" Name="KET" Range="" Results="^Neg|^+- 5|^1+ 15|^2+ 40|^3+ &gt;=80|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_CRE UnitType="1" ItemID="3" Unit="mg/dL" Name="CRE" Range="" Results="^0.9 10|^4.4 50|^8.8 100|^17.7 200|^26.5 300|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_BLD UnitType="1" ItemID="4" Unit="Ery/uL" Name="BLD" Range="" Results="^Neg|^+- Ca10|^1+ Ca25|^2+ Ca80|^3+ &gt;=Ca200|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_PRO UnitType="1" ItemID="5" Unit="mg/dL" Name="PRO" Range="" Results="^Neg|^Trace|^1+ 30|^2+ 100|^3+ &gt;=300|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_MAL UnitType="1" ItemID="6" Unit="mg/L" Name="MALB" Range="" Results="^10|^30|^80|^150|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_NIT UnitType="1" ItemID="7" Unit="" Name="NIT" Range="" Results="^Neg|^Pos|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_LEU UnitType="1" ItemID="8" Unit="Leu/uL" Name="LEU" Range="" Results="^Neg|^+- Ca15|^1+ Ca75|^2+ Ca125|^3+ &gt;=Ca500|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_GLU UnitType="1" ItemID="9" Unit="mg/dL" Name="GLU" Range="" Results="^Neg|^1+ 100|^2+ 250|^3+ 500|^4+ &gt;=1000|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_SG UnitType="1" ItemID="10" Unit="" Name="SG" Range="" Results="^&lt;=1.005|^1.010|^1.015|^1.020|^1.025|^&gt;=1.030|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_PH UnitType="1" ItemID="11" Unit="" Name="pH" Range="" Results="^&lt;=5.0|^5.5|^6.0|^6.5|^7.0|^7.5|^8.0|^8.5|^&gt;=9.0|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_VC UnitType="1" ItemID="12" Unit="mg/dL" Name="VC" Range="" Results="^0|^0.6 10|^1.4 25|^2.8 50|^&gt;=5.7 &gt;=100|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_AC UnitType="1" ItemID="13" Unit="mg/g" Name="A:C" Range="" Results="^&lt;3.4 &lt;30|^3.4-33.9 30-300|^&gt;33.9 &gt;300|" />
+  <EM_ITEM_UNITTYPE_CONVENTION_PLUS_ON_EM_CHEMICAL_ITEM_RESULT UnitType="1" ItemID="15" Unit="" Name="RT" Range="" Results="^Normal|^Abnormal|^High abnormal|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_UBG UnitType="3" ItemID="0" Unit="umol/L" Name="UBG" Range="" Results="^Normal 3.4|^Normal 17|^1+ 34|^2+ 68|^3+ &gt;=135|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_BIL UnitType="3" ItemID="1" Unit="umol/L" Name="BIL" Range="" Results="^Neg|^1+ 17|^2+ 51|^3+ &gt;=103|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_KET UnitType="3" ItemID="2" Unit="mmol/L" Name="KET" Range="" Results="^Neg|^+- 0.5|^1+ 1.5|^2+ 3.9|^3+ &gt;=7.8|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_CRE UnitType="3" ItemID="3" Unit="mmol/L" Name="CRE" Range="" Results="^0.9|^4.4|^8.8|^17.7|^26.5|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_BLD UnitType="3" ItemID="4" Unit="Ery/uL" Name="BLD" Range="" Results="^Neg|^+- Ca10|^1+ Ca25|^2+ Ca80|^3+ &gt;=Ca200|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_PRO UnitType="3" ItemID="5" Unit="g/L" Name="PRO" Range="" Results="^Neg|^Trace|^1+ 0.3|^2+ 1.0|^3+ &gt;=3.0|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_MAL UnitType="3" ItemID="6" Unit="mg/L" Name="MALB" Range="" Results="^10|^30|^80|^150|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_NIT UnitType="3" ItemID="7" Unit="" Name="NIT" Range="" Results="^Neg|^Pos|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_LEU UnitType="3" ItemID="8" Unit="Leu/uL" Name="LEU" Range="" Results="^Neg|^+- Ca15|^1+ Ca75|^2+ Ca125|^3+ &gt;=Ca500|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_GLU UnitType="3" ItemID="9" Unit="mmol/L" Name="GLU" Range="" Results="^Neg|^1+ 5.6|^2+ 14|^3+ 28|^4+ &gt;=56|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_SG UnitType="3" ItemID="10" Unit="" Name="SG" Range="" Results="^&lt;=1.005|^1.010|^1.015|^1.020|^1.025|^&gt;=1.030|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_PH UnitType="3" ItemID="11" Unit="" Name="pH" Range="" Results="^&lt;=5.0|^5.5|^6.0|^6.5|^7.0|^7.5|^8.0|^8.5|^&gt;=9.0|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_VC UnitType="3" ItemID="12" Unit="mmol/L" Name="VC" Range="" Results="^0|^0.6|^1.4|^2.8|^&gt;=5.7|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_AC UnitType="3" ItemID="13" Unit="mg/mmol" Name="A:C" Range="" Results="^&lt;3.4|^3.4-33.9|^&gt;33.9|" />
+  <EM_ITEM_UNITTYPE_INTERNATIONAL_PLUS_ON_EM_CHEMICAL_ITEM_RESULT UnitType="3" ItemID="15" Unit="" Name="RT" Range="" Results="^Normal|^Abnormal|^High abnormal|" />
+</ROOT>

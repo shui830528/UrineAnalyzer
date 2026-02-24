@@ -1,0 +1,20 @@
+﻿<local:ModernWindow x:Class="UrineAnalyzer.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UrineAnalyzer"
+        mc:Ignorable="d"
+        Style="{StaticResource MetroWindowStyle}"
+        Title="系统帮助" Height="600" Width="800" Background="White" FontSize="16" WindowStartupLocation="CenterScreen" Loaded="ModernWindow_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <Button Name="button_Colose" Content="关闭" Style="{StaticResource DialogButton}" Width="80" Height="40" Click="button_Colose_Click"/>
+            <!--<Button Name="button_Colose" Content="关闭" Width="80" Height="40" Style="{StaticResource ButtonStyle}" Click="button_Colose_Click"/>-->
+        </StackPanel>
+    </Grid>
+</local:ModernWindow>

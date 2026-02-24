@@ -1,0 +1,36 @@
+﻿
+【日志创建时间***********】【日志内容*****************************************************】
+
+【  2017-11-08 9:53:42  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 9:53:56  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 11 and IsNeg = true Order by QCDate  】
+【  2017-11-08 9:54:10  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 11 and IsNeg = true Order by QCDate  】
+【  2017-11-08 9:54:27  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 10 and IsNeg = true Order by QCDate  】
+【  2017-11-08 9:54:32  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 9 and IsNeg = true Order by QCDate  】
+【  2017-11-08 9:54:37  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 8 and IsNeg = true Order by QCDate  】
+【  2017-11-08 9:54:42  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 7 and IsNeg = true Order by QCDate  】
+【  2017-11-08 9:55:02  】【  表 'Tab_QCResult' 己经被别的用户以独占方式打开， 或它已经被其它用户从用户界面打开，且不能被程序处理。 : DB.Query执行错误 : Select * From Tab_QCResult Where Year(QCDate) = 2017 and Month(QCDate) = 7 and IsNeg = false Order by QCDate  】
+【  2017-11-08 9:55:41  】【  语法错误。 在查询表达式 'QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID,Day(QCDate) where ItemName = 'UBG' Year(QCDate) = 2017 and Month(QCDate) = 7)' 中。 : DB.Query执行错误 : select * from Tab_QCResult where QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID,Day(QCDate) where ItemName = 'UBG' Year(QCDate) = 2017 and Month(QCDate) = 7)  】
+【  2017-11-08 9:56:26  】【  Connection Thread ID 10 Count : 1  】
+【  2017-11-08 9:56:43  】【  语法错误。 在查询表达式 'QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID,Day(QCDate) where ItemName = 'UBG' Year(QCDate) = 2017 and Month(QCDate) = 7)' 中。 : DB.Query执行错误 : select * from Tab_QCResult where QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID,Day(QCDate) where ItemName = 'UBG' Year(QCDate) = 2017 and Month(QCDate) = 7)  】
+【  2017-11-08 9:56:56  】【  Connection Thread ID 10 Count : 1  】
+【  2017-11-08 9:57:37  】【  语法错误。 在查询表达式 'QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID,Day(QCDate) where ItemName = 'UBG' Year(QCDate) = 2017 and Month(QCDate) = 7)' 中。 : DB.Query执行错误 : select * from Tab_QCResult where QCDate in (select Max(QCDate) as maxDate from Tab_QCResult group by ItemID,Day(QCDate) where ItemName = 'UBG' Year(QCDate) = 2017 and Month(QCDate) = 7)  】
+【  2017-11-08 9:58:50  】【  Connection Thread ID 8 Count : 1  】
+【  2017-11-08 9:59:57  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:02:16  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:03:31  】【  Connection Thread ID 8 Count : 1  】
+【  2017-11-08 10:03:42  】【  Connection Thread ID 10 Count : 1  】
+【  2017-11-08 10:06:17  】【  Connection Thread ID 8 Count : 1  】
+【  2017-11-08 10:06:31  】【  语法错误。 在查询表达式 'ItemName = 'UBG' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult where ItemName = 'UBG' and Year(QCDate) = 2017 and Month(QCDate) = 7 and (QCDate>=2017-07-09 10:32:00 and QCDate <=2017-07-09 10:32:00) group by ItemID,Day(QCDate))' 中。 : DB.Query执行错误 : select * from Tab_QCResult where ItemName = 'UBG' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult where ItemName = 'UBG' and Year(QCDate) = 2017 and Month(QCDate) = 7 and (QCDate>=2017-07-09 10:32:00 and QCDate <=2017-07-09 10:32:00) group by ItemID,Day(QCDate))  】
+【  2017-11-08 10:11:08  】【  语法错误。 在查询表达式 'ItemName = 'UBG' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult where ItemName = 'UBG' and Year(QCDate) = 2017 and Month(QCDate) = 7 and (QCDate>=2017-07-09 10:32:00 and QCDate <=2017-07-09 10:32:00) group by ItemID,Day(QCDate))' 中。 : DB.Query执行错误 : select * from Tab_QCResult where ItemName = 'UBG' and QCDate in (select Max(QCDate) as maxDate from Tab_QCResult where ItemName = 'UBG' and Year(QCDate) = 2017 and Month(QCDate) = 7 and (QCDate>=2017-07-09 10:32:00 and QCDate <=2017-07-09 10:32:00) group by ItemID,Day(QCDate))  】
+【  2017-11-08 10:11:17  】【  Connection Thread ID 10 Count : 1  】
+【  2017-11-08 10:13:14  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:14:26  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:23:20  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:31:20  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:36:29  】【  Connection Thread ID 10 Count : 1  】
+【  2017-11-08 10:39:19  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:40:23  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 10:42:20  】【  Connection Thread ID 1 Count : 1  】
+【  2017-11-08 15:55:55  】【  Connection Thread ID 10 Count : 1  】
+【  2017-11-08 16:00:03  】【  Connection Thread ID 9 Count : 1  】
+【  2017-11-08 16:03:03  】【  Connection Thread ID 9 Count : 1  】

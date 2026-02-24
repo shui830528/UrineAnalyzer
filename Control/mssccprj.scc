@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Control.csproj]
+SCC_Aux_Path = "\\server\软件源码\生化"
+SCC_Project_Name = "$/SourceCode/尿仪/UrineAnalyzer/Control", WJIAAAAA

@@ -1,0 +1,164 @@
+﻿<Window x:Class="UrineAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UrineAnalyzer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000" WindowState="Maximized" FontSize="16" Loaded="Window_Loaded" Closing="Window_Closing" WindowStyle="None">
+    <Window.Resources>
+        <Style x:Key="ToolButton" TargetType="Border">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="BorderBrush" Value="#FF79B7F5"/>
+                    <!--<Setter Property="BorderBrush" Value="#FF767676"/>-->
+                    <Setter Property="Background" Value="#FF4F4F4F"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Name="MainTitle" Background="#3D3D3D" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image Source="Assets/logo.png" HorizontalAlignment="Left"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,80,0">
+                <TextBlock Text="用户名：" VerticalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+                <TextBlock Name="textBlock_Administrator" Text="" VerticalAlignment="Center" Foreground="White"/>
+                <TextBlock Text="权限：" VerticalAlignment="Center"  Margin="30,0,0,0" FontWeight="Bold" Foreground="White"/>
+                <TextBlock Name="textBlock_User" Text="" VerticalAlignment="Center" Foreground="White"/>
+
+                <Border Margin="100,5,2,5" Width="80" Style="{StaticResource ToolButton}">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/Sample.png" Width="32" Height="32"/>
+                        <TextBlock Text="切换用户" Margin="5,0,5,0" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+                <Border Margin="10,5,2,5" Width="80" Style="{StaticResource ToolButton}">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/Content_32x32.png" Width="32" Height="32"/>
+                        <TextBlock Text="系统帮助" Margin="5,0,5,0" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+                <Border Width="80" Margin="10,5,2,5" Name="btnExit" Style="{StaticResource ToolButton}" MouseLeftButtonUp="btnExit_MouseLeftButtonUp">
+                    <StackPanel VerticalAlignment="Center">
+                        <Image Source="Assets/Stretch_32x32.png" Width="32" Height="32"/>
+                        <TextBlock Text="系统退出" Margin="5,0,5,0" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <Border Grid.Row="1">
+            <TabControl Template="{StaticResource TabControlVertical}">
+                <TabItem Header="样本管理">
+                    <TabItem.Content>
+                        <Frame Source="SamplePage.xaml" NavigationUIVisibility="Hidden"/>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem Header="质控管理">
+                    <TabItem.Content>
+                        <Frame Source="QCPage.xaml" NavigationUIVisibility="Hidden"/>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem Header="工作量统计">
+                    <TabItem.Content>
+                        <Frame Source="WorkloadAccountPage.xaml" NavigationUIVisibility="Hidden"/>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem Header="系统设置">
+                    <TabItem.Content>
+                        <TabControl Template="{StaticResource TabControlHorizontal}">
+                            <TabItem Header="联机设置">
+                                <TabItem.Content>
+                                    <Frame Source="LinkParamPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="基本设置">
+                                <TabItem.Content>
+                                    <Frame Source="BaseParamPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="结果设置">
+                                <TabItem.Content>
+                                    <Frame Source="ResultSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="信息管理">
+                                <TabItem.Content>
+                                    <Frame Source="HospInfoSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="输入设置">
+                                <TabItem.Content>
+                                    <Frame Source="InputSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="打印设置">
+                                <TabItem.Content>
+                                    <Frame Source="PrintSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                        </TabControl>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem Header="用户管理">
+                    <TabItem.Content>
+                        <TabControl  Template="{StaticResource TabControlHorizontal}">
+                            <TabItem Header="权限管理">
+                                <TabItem.Content>
+                                    <Frame Source="AuthoritySettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="用户管理">
+                                <TabItem.Content>
+                                    <Frame Source="UserSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                            <TabItem Header="修改密码">
+                                <TabItem.Content>
+                                    <Frame Source="PasswordSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                                </TabItem.Content>
+                            </TabItem>
+                        </TabControl>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem Header="接收日志">
+                    <TabItem.Content>
+                        <Frame Source="LogSettingPage.xaml" NavigationUIVisibility="Hidden"/>
+                    </TabItem.Content>
+                </TabItem>
+            </TabControl>
+        </Border>
+        
+        
+        <Grid Name="MainStatusBar" Grid.Row="2" Background="#FFF9F7F7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition MinWidth="400"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Margin="2,2,2,2" BorderBrush="Gray" BorderThickness="1" >
+                <TextBlock x:Name="textBlock_Com" Text="" VerticalAlignment="Center" Margin="5,0,5,0"/>
+            </Border>
+            <Border Grid.Column="1" Margin="0,2,2,2" BorderBrush="Gray" BorderThickness="1">
+                <TextBlock x:Name="textBlock_State" Text="" VerticalAlignment="Center" Margin="5,0,5,0" />
+            </Border>
+            <Border Grid.Column="2" Margin="0,2,2,2" BorderBrush="Gray" BorderThickness="1">
+                <TextBlock x:Name="textBlock_Video" Text="" VerticalAlignment="Center" Margin="5,0,5,0"/>
+            </Border>
+        </Grid>
+
+    </Grid>
+</Window>

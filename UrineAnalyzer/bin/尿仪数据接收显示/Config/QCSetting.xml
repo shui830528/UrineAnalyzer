@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <ID0 IsCheck="True" Name="UBG" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="3" NegLowerLimit="0" PosUpperLimit="3" PosLowerLimit="0" />
+  <ID1 IsCheck="True" Name="BIL" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="3" NegLowerLimit="1" PosUpperLimit="2" PosLowerLimit="0" />
+  <ID2 IsCheck="True" Name="KET" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="4" NegLowerLimit="1" PosUpperLimit="3" PosLowerLimit="0" />
+  <ID3 IsCheck="True" Name="CRE" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="4" NegLowerLimit="2" PosUpperLimit="3" PosLowerLimit="1" />
+  <ID4 IsCheck="True" Name="BLD" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="4" NegLowerLimit="0" PosUpperLimit="3" PosLowerLimit="1" />
+  <ID5 IsCheck="False" Name="PRO" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID6 IsCheck="False" Name="MALB" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID7 IsCheck="False" Name="NIT" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID8 IsCheck="False" Name="LEU" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID9 IsCheck="False" Name="GLU" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID10 IsCheck="False" Name="SG" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID11 IsCheck="False" Name="pH" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID12 IsCheck="False" Name="VC" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID13 IsCheck="False" Name="A:C" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+  <ID15 IsCheck="False" Name="RT" NegNoEnable="False" PosNoEnable="False" NegUpperLimit="-1" NegLowerLimit="-1" PosUpperLimit="-1" PosLowerLimit="-1" />
+</ROOT>

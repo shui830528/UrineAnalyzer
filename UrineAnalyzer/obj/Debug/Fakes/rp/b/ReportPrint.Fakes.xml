@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReportPrint.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ReportPrint.Fakes.ShimReportPrint">
+            <summary>ReportPrint.ReportPrint 的填充码类型</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.ShimReportPrint.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.ShimReportPrint.#ctor(ReportPrint.ReportPrint)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:ReportPrint.Fakes.ShimReportPrint.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.ImageSourceConvertToGDIImageSource">
+            <summary>设置 ReportPrint.ImageSourceConvertToGDI(ImageSource imageSource) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataListOfStringListOfDataSetDictionaryOfStringImageSourceDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataListOfStringListOfDataSetDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataListOfStringListOfDataSetDictionaryOfStringStringDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataListOfStringListOfIListOfObjectDictionaryOfStringImageSourceDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataListOfStringListOfIListOfObjectDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataListOfStringListOfIListOfObjectDictionaryOfStringStringDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataNoReportParameterListOfStringListOfDataSet">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataNoReportParameterListOfStringListOfDataSetDictionaryOfStringImageSource">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataNoReportParameterListOfStringListOfDataSetDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataNoReportParameterListOfStringListOfIListOfObject">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataNoReportParameterListOfStringListOfIListOfObjectDictionaryOfStringImageSource">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.LoadReportDataNoReportParameterListOfStringListOfIListOfObjectDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.MyReportGet">
+            <summary>设置 ReportPrint.get_MyReport() 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.AllInstances.Print">
+            <summary>设置 ReportPrint.Print() 的 填充码</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.ShimReportPrint.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.ShimReportPrint.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.Constructor">
+            <summary>设置 ReportPrint.ReportPrint() 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.ConstructorString">
+            <summary>设置 ReportPrint.ReportPrint(String reportFileName) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.ConstructorStringStringString">
+            <summary>设置 ReportPrint.ReportPrint(String reportFileName, String dbConnectionParamName, String dbConnectionString) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.ImageSourceConvertToGDIImageSource">
+            <summary>设置 ReportPrint.ImageSourceConvertToGDI(ImageSource imageSource) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataListOfStringListOfDataSetDictionaryOfStringImageSourceDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataListOfStringListOfDataSetDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataListOfStringListOfDataSetDictionaryOfStringStringDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataListOfStringListOfIListOfObjectDictionaryOfStringImageSourceDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataListOfStringListOfIListOfObjectDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataListOfStringListOfIListOfObjectDictionaryOfStringStringDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportData(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture, Dictionary`2&lt;String,String&gt; parameterList) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataNoReportParameterListOfStringListOfDataSet">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataNoReportParameterListOfStringListOfDataSetDictionaryOfStringImageSource">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataNoReportParameterListOfStringListOfDataSetDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;DataSet&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataNoReportParameterListOfStringListOfIListOfObject">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataNoReportParameterListOfStringListOfIListOfObjectDictionaryOfStringImageSource">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,ImageSource&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.LoadReportDataNoReportParameterListOfStringListOfIListOfObjectDictionaryOfStringString">
+            <summary>设置 ReportPrint.LoadReportDataNoReportParameter(List`1&lt;String&gt; reportDataSourceName, List`1&lt;IList`1&lt;Object&gt;&gt; reportDataSourceDataSet, Dictionary`2&lt;String,String&gt; reportDataSourcePicture) 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.MyReportGet">
+            <summary>设置 ReportPrint.get_MyReport() 的 填充码</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.ShimReportPrint.Print">
+            <summary>设置 ReportPrint.Print() 的 填充码</summary>
+        </member>
+        <member name="T:ReportPrint.Fakes.StubReportPrint">
+            <summary>ReportPrint.ReportPrint 的存根类型</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.StubReportPrint.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.StubReportPrint.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.StubReportPrint.#ctor(System.String,System.String,System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.StubReportPrint.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:ReportPrint.Fakes.StubReportPrint.InitializeStub">
+            <summary>初始化 type StubReportPrint 的新实例</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.StubReportPrint.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:ReportPrint.Fakes.StubReportPrint.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

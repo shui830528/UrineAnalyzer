@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/19/2017 09:08:30" ReportInfo.Modified="08/27/2019 09:46:53" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <Parameter Name="SampleTitle" DataType="System.String"/>
+    <Parameter Name="HospitalTitle" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="182.1" PaperHeight="257" RawPaperSize="13" FirstPageSource="15" OtherPagesSource="15">
+    <ReportTitleBand Name="ReportTitle1" Width="612.74" Height="56.7">
+      <TextObject Name="Text1" Left="198.45" Top="18.9" Width="226.8" Height="18.9" Text="[SampleTitle]" Font="黑体, 15.75pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="60.87" Width="612.74" Height="151.2">
+      <TextObject Name="Text2" Left="9.45" Top="9.45" Width="75.6" Height="18.9" Text="样本编号：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="9.45" Top="37.8" Width="75.6" Height="18.9" Text="条码ID号：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text6" Left="217.35" Top="37.8" Width="75.6" Height="18.9" Text="样本类型：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="425.25" Top="9.45" Width="75.6" Height="18.9" Text="送检时间：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="425.25" Top="37.8" Width="75.6" Height="18.9" Text="检验日期：" VertAlign="Center" Font="宋体, 9pt"/>
+      <LineObject Name="Line1" Left="9.45" Top="60.15" Width="595.35"/>
+      <LineObject Name="Line2" Left="9.45" Top="63.6" Width="595.35"/>
+      <TextObject Name="Text12" Left="9.45" Top="75.6" Width="75.6" Height="18.9" Text="患者姓名：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text14" Left="217.35" Top="75.6" Width="75.6" Height="18.9" Text="患者性别：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text16" Left="425.25" Top="75.6" Width="75.6" Height="18.9" Text="患者年龄：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text19" Left="9.45" Top="103.95" Width="75.6" Height="18.9" Text="病 历 号：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text21" Left="217.35" Top="103.95" Width="75.6" Height="18.9" Text="床    号：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text23" Left="425.25" Top="103.95" Width="75.6" Height="18.9" Text="送检医生：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text25" Left="9.45" Top="132.3" Width="75.6" Height="18.9" Text="送检科室：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text27" Left="217.35" Top="132.3" Width="75.6" Height="18.9" Text="诊断结果：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text29" Left="425.25" Top="132.3" Width="75.6" Height="18.9" Text="备    注：" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text15" Left="85.05" Top="9.45" Width="94.5" Height="18.9" Text="[Query.SampleID]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text17" Left="85.05" Top="37.8" Width="94.5" Height="18.9" Text="[Query.BarCode]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text18" Left="292.95" Top="37.8" Width="94.5" Height="18.9" Text="[Query.SampleType]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text20" Left="500.85" Top="9.45" Width="94.5" Height="18.9" Text="[Query.SendCheckDate]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text22" Left="500.85" Top="37.8" Width="94.5" Height="18.9" Text="[Query.CheckDate]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text24" Left="85.05" Top="75.6" Width="94.5" Height="18.9" Text="[Query.PatientName]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text26" Left="292.95" Top="75.6" Width="94.5" Height="18.9" Text="[Query.PatientSex]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text28" Left="500.85" Top="75.6" Width="28.35" Height="18.9" Text="[Query.PatientAge]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text30" Left="529.2" Top="75.6" Width="47.25" Height="18.9" Text="[Query.PatientAgeUnit]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text32" Left="85.05" Top="103.95" Width="94.5" Height="18.9" Text="[Query.CaseNo]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text34" Left="292.95" Top="103.95" Width="94.5" Height="18.9" Text="[Query.BedNo]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text37" Left="500.85" Top="103.95" Width="94.5" Height="18.9" Text="[Query.SendCheckDoctor]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text38" Left="85.05" Top="132.3" Width="94.5" Height="18.9" Text="[Query.SendCheckOffice]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text39" Left="292.95" Top="132.3" Width="94.5" Height="18.9" Text="[Query.Clinical]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text40" Left="500.85" Top="132.3" Width="94.5" Height="18.9" Text="[Query.Remarks]" VertAlign="Center" Font="宋体, 9pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data2" Top="216.23" Width="612.74" Height="18.9">
+      <SubreportObject Name="Subreport1" Left="9.45" Width="94.5" Height="18.9" ReportPage="Page2"/>
+      <ChildBand Name="Child1" Top="239.3" Width="612.74" Height="75.6">
+        <TextObject Name="Text61" Left="9.45" Width="595.35" Height="28.35" Border.Lines="Top, Bottom" Text="手工镜检" HorzAlign="Center" VertAlign="Center" Font="宋体, 11.25pt, style=Bold"/>
+        <TextObject Name="Text62" Left="9.45" Top="37.8" Width="94.5" Height="18.9" Text="检验项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <TextObject Name="Text63" Left="160.65" Top="37.8" Width="94.5" Height="18.9" Text="名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <TextObject Name="Text64" Left="311.85" Top="37.8" Width="94.5" Height="18.9" Text="结果" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <TextObject Name="Text65" Left="463.05" Top="37.8" Width="94.5" Height="18.9" Text="参考值" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <LineObject Name="Line8" Left="9.45" Top="56.7" Width="595.35"/>
+        <SubreportObject Name="Subreport2" Left="9.45" Top="56.7" Width="94.5" Height="18.9" ReportPage="Page3"/>
+      </ChildBand>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="319.07" Width="612.74" Height="85.05">
+      <LineObject Name="Line3" Left="9.45" Top="18.9" Width="595.35"/>
+      <TextObject Name="Text31" Left="9.45" Top="28.35" Width="66.15" Height="18.9" Text="审核人：" Font="宋体, 9pt"/>
+      <TextObject Name="Text33" Left="198.45" Top="28.35" Width="66.15" Height="18.9" Text="检验人：" Font="宋体, 9pt"/>
+      <TextObject Name="Text35" Left="359.1" Top="28.35" Width="75.6" Height="18.9" Text="打印时间：" Font="宋体, 9pt"/>
+      <TextObject Name="Text36" Left="434.7" Top="28.35" Width="170.1" Height="18.9" Text="[Date]" Font="宋体, 9pt"/>
+      <TextObject Name="Text41" Left="9.45" Top="56.7" Width="595.35" Height="18.9" Text="[HospitalTitle]" Font="宋体, 9pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page2">
+    <DataBand Name="DataBand_Analyzer" Top="60.87" Width="718.2" Height="21.35">
+      <TextObject Name="Text3" Left="18.9" Top="2.45" Width="94.5" Height="18.9" Text="[AnalyzerQuery.ItemName]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Left="335.2" Top="2.45" Width="94.5" Height="18.9" Text="[AnalyzerQuery.ItemResult]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="481.95" Top="2.45" Width="94.5" Height="18.9" Text="[AnalyzerQuery.ItemRange]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text42" Left="183" Top="2.45" Width="94.5" Height="18.9" Text="[AnalyzerQuery.ItemNameCN]" Font="宋体, 9pt"/>
+      <DataHeaderBand Name="DataHeader1" Width="718.2" Height="56.7">
+        <TextObject Name="Text51" Width="595.35" Height="28.35" Border.Lines="Top, Bottom" Text="干化学分析" HorzAlign="Center" VertAlign="Center" Font="宋体, 11.25pt, style=Bold"/>
+        <TextObject Name="Text52" Top="37.8" Width="94.5" Height="18.9" Text="检验项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <TextObject Name="Text53" Left="151.2" Top="37.8" Width="94.5" Height="18.9" Text="名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <TextObject Name="Text54" Left="302.4" Top="37.8" Width="94.5" Height="18.9" Text="结果" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <TextObject Name="Text55" Left="453.6" Top="37.8" Width="94.5" Height="18.9" Text="参考值" HorzAlign="Center" VertAlign="Center" Font="宋体, 9.75pt, style=Bold"/>
+        <LineObject Name="Line6" Top="56.7" Width="595.35"/>
+      </DataHeaderBand>
+    </DataBand>
+  </ReportPage>
+  <ReportPage Name="Page3">
+    <DataBand Name="DataBand_Manual" Width="718.2" Height="18.9">
+      <TextObject Name="Text9" Left="18.9" Width="94.5" Height="18.9" Text="[ManualQuery.ItemName]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text11" Left="338.2" Width="94.5" Height="18.9" Text="[ManualQuery.ItemResult]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text13" Left="481.95" Width="94.5" Height="18.9" Text="[ManualQuery.ItemRange]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text43" Left="184" Width="94.5" Height="18.9" Text="[ManualQuery.ItemNameCN]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" TextQuality="Regular" ReportInfo.Description="Demonstrates how to add simple dialog form to the report. To do this:&#13;&#10;&#13;&#10;- press the &quot;New Dialog&quot; button on a toolbar;&#13;&#10;&#13;&#10;- this will create an empty dialog form with two default buttons. Put some controls on it and set its properties as you want.&#13;&#10;&#13;&#10;When you run a report, you will see the dialog. If you close it by &quot;OK&quot; button, the report will be generated.&#13;&#10;&#13;&#10;Note: you may add several dialogs." ReportInfo.Created="01/18/2008 03:08:14" ReportInfo.Modified="03/11/2013 02:12:20" ReportInfo.CreatorVersion="1.0.0.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {    
+    private void Form1_Load(object sender, EventArgs e)
+    {
+      DateTimePicker1.Value = DateTime.Now;
+      MonthCalendar1.TodayDate = DateTime.Now;      
+    }
+  }
+}
+</ScriptText>
+  <Dictionary/>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="160.65">
+      <TextObject Name="Text1" Top="9.45" Width="463.05" Height="18.9" Text="You have entered: [TextBox1.Text]"/>
+      <TextObject Name="Text2" Top="28.35" Width="463.05" Height="18.9" Text="Entered date: [DateTimePicker1.Value]"/>
+      <TextObject Name="Text3" Top="47.25" Width="463.05" Height="18.9" Text="Entered day: [MonthCalendar1.TodayDate]"/>
+    </ReportTitleBand>
+  </ReportPage>
+  <DialogPage Name="Form1" Width="432" Height="504" LoadEvent="Form1_Load">
+    <ButtonControl Name="Button1" Left="256" Top="432" Font="Tahoma, 8pt" TabIndex="1" Text="OK" DialogResult="OK"/>
+    <ButtonControl Name="Button2" Left="336" Top="432" Font="Tahoma, 8pt" TabIndex="2" Text="Cancel" DialogResult="Cancel"/>
+    <LabelControl Name="Label1" Left="8" Top="12" Width="79" Height="13" Font="Tahoma, 8pt" TabIndex="3" Text="Enter the text:"/>
+    <TextBoxControl Name="TextBox1" Left="8" Top="32" Width="188" Font="Tahoma, 8pt" TabIndex="0" Text="Hello!"/>
+    <CheckBoxControl Name="CheckBox1" Left="8" Top="68" Width="79" Height="17" Font="Tahoma, 8pt" TabIndex="4" Text="CheckBox1" Checked="true" CheckState="Checked"/>
+    <CheckBoxControl Name="CheckBox2" Left="8" Top="92" Width="79" Height="17" Font="Tahoma, 8pt" TabIndex="5" Text="CheckBox2"/>
+    <CheckBoxControl Name="CheckBox3" Left="8" Top="116" Width="79" Height="17" Font="Tahoma, 8pt" TabIndex="6" Text="CheckBox3"/>
+    <RadioButtonControl Name="RadioButton1" Left="108" Top="68" Width="90" Height="17" Font="Tahoma, 8pt" TabIndex="7" Text="RadioButton1" Checked="true"/>
+    <RadioButtonControl Name="RadioButton2" Left="108" Top="92" Width="90" Height="17" Font="Tahoma, 8pt" TabIndex="8" TabStop="false" Text="RadioButton2"/>
+    <RadioButtonControl Name="RadioButton3" Left="108" Top="116" Width="90" Height="17" Font="Tahoma, 8pt" TabIndex="9" TabStop="false" Text="RadioButton3"/>
+    <ComboBoxControl Name="ComboBox1" Left="216" Top="32" Font="Tahoma, 8pt" TabIndex="10" Text="ComboBox" ItemHeight="13" ItemsText="Item 1&#13;&#10;Item 2&#13;&#10;Item 3&#13;&#10;Item 4&#13;&#10;Item 5&#13;&#10;Item 6&#13;&#10;Item 7&#13;&#10;Item 8"/>
+    <CheckedListBoxControl Name="CheckedListBox1" Left="8" Top="148" Width="184" Height="108" Font="Tahoma, 8pt" TabIndex="11" Text="CheckedListBox" ItemsText="Item 1&#13;&#10;Item 2&#13;&#10;Item 3&#13;&#10;Item 4&#13;&#10;Item 5&#13;&#10;Item 6&#13;&#10;Item 7&#13;&#10;Item 8"/>
+    <DateTimePickerControl Name="DateTimePicker1" Left="8" Top="264" Font="Tahoma, 8pt" TabIndex="12" Value="03/11/2013 02:00:10"/>
+    <GroupBoxControl Name="GroupBox1" Left="216" Top="64" Font="Tahoma, 8pt" TabIndex="13" Text="GroupBox"/>
+    <ListBoxControl Name="ListBox1" Left="216" Top="176" Width="200" Height="108" Font="Tahoma, 8pt" TabIndex="14" Text="ListBox" ItemsText="Item 1&#13;&#10;Item 2&#13;&#10;Item 3&#13;&#10;Item 4&#13;&#10;Item 5&#13;&#10;Item 6&#13;&#10;Item 7&#13;&#10;Item 8"/>
+    <MonthCalendarControl Name="MonthCalendar1" Left="8" Top="292" Font="Tahoma, 8pt" TabIndex="15" Text="MonthCalendar"/>
+  </DialogPage>
+</Report>
