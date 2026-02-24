@@ -7,51 +7,51 @@
       "RelativeMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\hospinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\datamodel\\hospinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\datamodel\\hospinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\hospinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\datamodel\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\datamodel\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\datamodel\\sampleinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\datamodel\\sampleinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\sampleinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\urineanalyzer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\urineanalyzer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|solutionrelative:urineanalyzer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\datamodel\\authoritysettingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\datamodel\\authoritysettingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\authoritysettingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7524CEFE-F41B-402E-9551-A403724C0E07}|Control\\Control.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\control\\dataparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7524CEFE-F41B-402E-9551-A403724C0E07}|Control\\Control.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\control\\dataparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7524CEFE-F41B-402E-9551-A403724C0E07}|Control\\Control.csproj|solutionrelative:control\\dataparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\datamodel\\sampleresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\datamodel\\sampleresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C08036C-D601-4FB9-B54C-7C4B74D8C1F0}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\sampleresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10EFE68F-283D-43C9-BFCA-97AAFC47D07C}|Tool\\Tool.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\tool\\dataupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10EFE68F-283D-43C9-BFCA-97AAFC47D07C}|Tool\\Tool.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\tool\\dataupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10EFE68F-283D-43C9-BFCA-97AAFC47D07C}|Tool\\Tool.csproj|solutionrelative:tool\\dataupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\urineanalyzer\\samplepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\urineanalyzer\\samplepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|solutionrelative:urineanalyzer\\samplepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\urineanalyzer\\samplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\urineanalyzer\\samplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E3B43109-730D-4878-AF73-5B3364732E15}|UrineAnalyzer\\UrineAnalyzer.csproj|solutionrelative:urineanalyzer\\samplepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\viewmodel\\reportprintviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\viewmodel\\reportprintviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\reportprintviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|u:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\urineanalyzer\\viewmodel\\linkparamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\viewmodel\\linkparamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05DADC70-CBB0-4072-95C6-5F30D92C2E65}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\linkparamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,8 +62,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -72,18 +80,10 @@
               "RelativeDocumentMoniker": "ViewModel\\HospInfoViewModel.cs",
               "ToolTip": "U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\ViewModel\\HospInfoViewModel.cs",
               "RelativeToolTip": "ViewModel\\HospInfoViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T06:46:30.267Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -95,8 +95,7 @@
               "RelativeToolTip": "DataModel\\HospInfoModel.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAAAJYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:46:21.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T06:46:21.387Z"
             },
             {
               "$type": "Document",
@@ -107,8 +106,7 @@
               "ToolTip": "U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\UrineAnalyzer\\LoginPage.xaml",
               "RelativeToolTip": "UrineAnalyzer\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-24T06:03:28.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T06:03:28.914Z"
             },
             {
               "$type": "Document",
@@ -120,8 +118,7 @@
               "RelativeToolTip": "DataModel\\AuthoritySettingModel.cs",
               "ViewState": "AgIAANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:03:01.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T06:03:01.188Z"
             },
             {
               "$type": "Document",
@@ -133,8 +130,7 @@
               "RelativeToolTip": "Tool\\DataUpdate.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAA2wDgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T05:59:39.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T05:59:39.1Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "UrineAnalyzer\\SamplePage.xaml.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T05:28:45.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T05:28:45.339Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "ToolTip": "U:\\\u5DE5\u4F5C\u6587\u6863\\\u5C3F\u4EEA\u8F6F\u4EF6\\UrineAnalyzer\\UrineAnalyzer\\SamplePage.xaml",
               "RelativeToolTip": "UrineAnalyzer\\SamplePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-24T05:25:47.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T05:25:47.152Z"
             },
             {
               "$type": "Document",
@@ -171,8 +165,7 @@
               "RelativeToolTip": "DataModel\\SampleInfoModel.cs",
               "ViewState": "AgIAAAsBAAAAAAAAAAAswBIBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T02:46:09.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T02:46:09.614Z"
             },
             {
               "$type": "Document",
@@ -184,8 +177,7 @@
               "RelativeToolTip": "DataModel\\DB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T02:46:09.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T02:46:09.607Z"
             },
             {
               "$type": "Document",
@@ -197,8 +189,7 @@
               "RelativeToolTip": "DataModel\\SampleResultModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:00:20.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T06:00:20.498Z"
             },
             {
               "$type": "Document",
@@ -210,8 +201,7 @@
               "RelativeToolTip": "ViewModel\\ReportPrintViewModel.cs",
               "ViewState": "AgIAANYAAAAAAAAAAAAAAOEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T03:12:03.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T03:12:03.572Z"
             },
             {
               "$type": "Document",
@@ -223,8 +213,7 @@
               "RelativeToolTip": "Control\\DataParser.cs",
               "ViewState": "AgIAANsAAAAAAAAAAAAAAOYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T02:46:09.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T02:46:09.592Z"
             },
             {
               "$type": "Document",
@@ -236,8 +225,7 @@
               "RelativeToolTip": "ViewModel\\LinkParamViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T06:50:19.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T06:50:19.211Z"
             }
           ]
         }
